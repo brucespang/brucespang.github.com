@@ -1,0 +1,139 @@
+/* !HTML Elements */
+body{
+	background: #446378 url(../img/bg.png);
+	color: #2c2e30;
+	font-size: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(255,255,255,.14);
+}
+
+a		{ color: #2c2e30; }
+a:hover { text-decoration: none; }
+
+img{
+	max-width: 100%;
+	overflow: hidden;
+}
+
+/* !Wrap */
+#wrap{
+	background: #72787f url(../img/wrap-bg.png);
+	border: 1px solid rgba(0,0,0,.4);
+	border-top-color: rgba(255,255,255,.4);
+	min-height: 533px;
+	margin: 5% auto;
+  width: 800px;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+
+#wrap-2{
+	background: url(../img/gradient-overlay.png) no-repeat top center;
+}
+
+/* !header */
+#header{
+	float: left;
+	padding: 1em 1em 0 1em;
+}
+
+#header #logo{ float: left; } 
+
+#header #about{
+	float: right;
+	margin: 1.5em 1em;
+}
+
+#header h1{ float: left; }
+
+#header h1 a{
+	color: #b44040;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+#header #tagline{
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: .4em;
+}
+
+#contact li a{
+	background: rgba(0,0,0,.08);
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	margin: .75em .5em 0 .5em;
+	padding: .5em;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px rgba(255,255,255,.1);
+}
+
+#header #email{ 
+	margin-left: 0;
+	clear: both; 
+}
+
+#header #email:hover, #header #twitter:hover{
+	background: rgba(0,0,0,.15);
+	-webkit-transition: background .3s linear;
+}
+
+/* !Work */
+#work .piece{
+	background: rgba(56,58,61,.09);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-top: 1px solid rgba(255,255,255,.2);
+	clear: both;
+	float: left;
+	margin-top: 24px;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,.14);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,.14);
+}
+
+#work .piece:first-child{ margin-top: 16px; }
+
+#work div.about{
+	float: left;
+	margin: 1em;
+	width: 256px;
+	text-align: right;
+}
+
+#work div.about h2{
+	font-size: 1.3125em;
+	margin-bottom: .5em;
+}
+
+#work div.about .visit{
+	display: inline-block;
+	margin-top: .5em;
+	font-weight: bold;
+}
+
+#work img{
+	border-left: 1px solid rgba(0,0,0,.1);
+	float: right;
+	max-width: 31.6em;
+}
+
+#work div.about p{ line-height: 1.4em; }
+
+#work .icon{ 
+	border-left: none; 
+	margin: 1em 0; 
+}
+
+/* !Footer */
+#footer{
+	clear: both;
+	font-size: .875em;	
+	margin: 0 auto;
+	padding: 1.5em 0;
+	text-align: center;
+}
+
+#footer #copy{ margin-bottom: .5em; }
