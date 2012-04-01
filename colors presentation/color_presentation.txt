@@ -1,0 +1,29 @@
+Color:
+- hex
+	- for ease of rendering
+	- could be computed from RGB, but hex stored is easier, cleaner
+- RGB
+	- for searching
+- percent of shot of color
+	- for searching
+
+Generating colors:
+- Read image in into imagemagick
+- quantize image to 8
+	- we tested this with 32, 16, 8, 4. 8 gave good results but didn't have screenshot bars of almost the same color
+- get the colors in the image, with number of pixels of image
+		- Magick::Image#color_histogram
+- find the total number of pixels
+	- color_histogram.values.sum
+- store RGB, hex, num of color/total pixels in colors
+
+Searching for colors:
+- Convert hex to RGB,
+- Calculate range around each RGB value to search for
+	- min, max = value +/- RANGE * variance / modifier
+		- "fraction of total spectrum to show"
+		- modifier so that the slider is usable
+- query DB
+	- each value BETWEEN min AND max
+	- HAVING sum(percentage) > #{percent}
+
