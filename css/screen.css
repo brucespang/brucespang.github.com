@@ -37,11 +37,12 @@ img{
 	padding: 1em 1em 0 1em;
 }
 
-#header #logo{ float: left; } 
+#header #logo{ float: left; }
 
 #header #about{
-	float: right;
+	float: left;
 	margin: 1.5em 1em;
+	width: 70%;
 }
 
 #header h1{ float: left; }
@@ -72,9 +73,9 @@ img{
 	-webkit-box-shadow: 0 0 3px rgba(255,255,255,.1);
 }
 
-#header #email{ 
+#header #email{
 	margin-left: 0;
-	clear: both; 
+	clear: both;
 }
 
 #header #email:hover, #header #twitter:hover{
@@ -122,15 +123,15 @@ img{
 
 #work div.about p{ line-height: 1.4em; }
 
-#work .icon{ 
-	border-left: none; 
-	margin: 1em 0; 
+#work .icon{
+	border-left: none;
+	margin: 1em 0;
 }
 
 /* !Footer */
 #footer{
 	clear: both;
-	font-size: .875em;	
+	font-size: .875em;
 	margin: 0 auto;
 	padding: 1.5em 0;
 	text-align: center;
