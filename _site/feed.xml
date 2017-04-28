@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-04-28T10:57:45-04:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2017-04-28T12:09:20-04:00</updated>
+  <id>//</id>
 
   
     <title type="html">Bruce Spang</title>
@@ -31,15 +31,15 @@
       
       <title type="html">Some Updates</title>
       
-      <link href="http://localhost:4000/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
+      <link href="/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
       <published>2017-04-28T10:00:00-04:00</published>
       <updated>2017-04-28T10:00:00-04:00</updated>
-      <id>http://localhost:4000/2017/04/28/some-updates</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
+      <id>/2017/04/28/some-updates</id>
+      <content type="html" xml:base="/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
 
 &lt;p&gt;I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to.&lt;/p&gt;
 
-&lt;p&gt;Next week, I’m presenting our paper &lt;a href=&quot;http://arxiv.org/abs/1701.08098&quot;&gt;“MON: Mission-optimized Overlay Networks”&lt;/a&gt; (my first paper!!) at INFOCOM in Atlanta. We looked at designing an overlay network which optimally routes traffic. There’s a tradeoff with these systems between a centralized system which solves the problem exactly but is not very resiliant, and a distributed system which solves the problem inexactly but which is reliable and responds quickly to changes. We propose what I think is a very cool two-layer architecture. It uses some TCP trickery to combine the strengths of both the centralized and distributed systems. Check out the paper on &lt;a href=&quot;http://arxiv.org/abs/1701.08098&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next week, I’m presenting our paper &lt;a href=&quot;http://arxiv.org/abs/1701.08098&quot;&gt;“MON: Mission-optimized Overlay Networks”&lt;/a&gt; (my first paper!!) at INFOCOM in Atlanta. We looked at designing an overlay network which optimally routes traffic. There’s a tradeoff with these systems between a centralized system which solves the problem exactly but is not very resilient, and a distributed system which solves the problem inexactly but which is reliable and responds quickly to changes. We propose what I think is a very cool two-layer architecture. It uses some TCP trickery to combine the strengths of both the centralized and distributed systems. Check out the paper on &lt;a href=&quot;http://arxiv.org/abs/1701.08098&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The week after next, I’m graduating from UMass with my Master’s in computer science. I’m working on a thesis about estimating the capacity of a network using TCP measurements. I’ve submitted a short version of it to the &lt;a href=&quot;https://www.sigmetrics.org/mama/&quot;&gt;MAMA workshop&lt;/a&gt; and will share the thesis as soon as I finish writing it.&lt;/p&gt;
 
@@ -64,7 +64,7 @@
       
 
       
-        <summary type="html">Hey pals, I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to. Next week, I’m presenting our paper “MON: Mission-optimized Overlay Networks” (my first paper!!) at INFOCOM in Atlanta. We looked at designing an overlay network which optimally routes traffic. There’s a tradeoff with these systems between a centralized system which solves the problem exactly but is not very resiliant, and a distributed system which solves the problem inexactly but which is reliable and responds quickly to changes. We propose what I think is a very cool two-layer architecture. It uses some TCP trickery to combine the strengths of both the centralized and distributed systems. Check out the paper on arXiv The week after next, I’m graduating from UMass with my Master’s in computer science. I’m working on a thesis about estimating the capacity of a network using TCP measurements. I’ve submitted a short version of it to the MAMA workshop and will share the thesis as soon as I finish writing it. In September, I’m moving to Palo Alto and starting a PhD at Stanford! If you live in the Bay Area, hopefully I will see more of you!</summary>
+        <summary type="html">Hey pals, I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to. Next week, I’m presenting our paper “MON: Mission-optimized Overlay Networks” (my first paper!!) at INFOCOM in Atlanta. We looked at designing an overlay network which optimally routes traffic. There’s a tradeoff with these systems between a centralized system which solves the problem exactly but is not very resilient, and a distributed system which solves the problem inexactly but which is reliable and responds quickly to changes. We propose what I think is a very cool two-layer architecture. It uses some TCP trickery to combine the strengths of both the centralized and distributed systems. Check out the paper on arXiv The week after next, I’m graduating from UMass with my Master’s in computer science. I’m working on a thesis about estimating the capacity of a network using TCP measurements. I’ve submitted a short version of it to the MAMA workshop and will share the thesis as soon as I finish writing it. In September, I’m moving to Palo Alto and starting a PhD at Stanford! If you live in the Bay Area, hopefully I will see more of you!</summary>
       
 
       
