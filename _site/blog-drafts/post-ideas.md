@@ -1,0 +1,3 @@
+- network utility maximization, from the direction of "does tcp even work"
+- lyapunov stability, with gradient descent
+- analysis of descent algorithms

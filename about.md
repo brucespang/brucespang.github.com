@@ -7,5 +7,5 @@ permalink: /about/
 - [Email]({{ site.email }})
 - [Publications](https://scholar.google.com/citations?user=ifdx-L8AAAAJ&hl=en)
 - [Github](http://github.com/brucespang)
-- [Twitter](http://github.com/twitter)
-- [Resume](http://github.com/resume.pdf)
+- [Twitter](http://twitter.com/brucespang)
+- [Resume](/resume.pdf)
