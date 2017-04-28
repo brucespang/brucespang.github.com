@@ -34,3 +34,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 excerpt_separator: <!--more-->
+
+google_analytics: UA-98289400-1
