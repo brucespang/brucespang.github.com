@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/bspang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brucespang.com
+  * I am bspang (https://keybase.io/bspang) on keybase.
+  * I have a public key with fingerprint 58C1 EE39 429B 2435 24C6  39E9 8BF8 88DE D5CA 0209
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;012079560d43d0a086335d8307c3eae6e8ce8640a2bd8b973d85527b6b29a59c485f0a&quot;,
+            &quot;fingerprint&quot;: &quot;58c1ee39429b243524c639e98bf888ded5ca0209&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;8bf888ded5ca0209&quot;,
+            &quot;kid&quot;: &quot;0101cce07d43eeeaaa735ba720bdd35e6a5e1cd48f993648811c8897878c20d200bc0a&quot;,
+            &quot;uid&quot;: &quot;629740933780ad3235c1a1ed5f20b719&quot;,
+            &quot;username&quot;: &quot;bspang&quot;
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;brucespang.com&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500045819,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;a954b99d516d80cb9d1852a60cb53eeb84f7373f32e09653dc017f00449c54a7&quot;,
+    &quot;seqno&quot;: 4,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkntQFVUcx3k5w2N4FFGjAukiQxLh2T17ds/eHIgCfMBoIohSwOzjXO52Ye/t
+3guIRPeO4iSOIBUxPcyaaYQGHIUCEtGpZqCYaIYAs1FUCEYyHmGESgTaXib+6689
++/t9v5/f9/zm1AZ6e/h63jueEtn1RXKTZ9/vkscB05hvOSVZlDLKUE6ZycqHFCrE
+7sg3qwploADNAF5AHFBYqAARYA5CpGAIeBkSkXAEywRzLBAZScGSwEMFI8TwEicx
+gogEmcXICEQqjjKqWgGxWW2q5tCxCMs0IVBgGUFiWIgYVuagQAQsGTHGClGQLAIG
+CLrRZLG7HXo4SbSTeNWi1/Sf/JV4/6NfzQ1oWSaA13MTQkRR5CGSRJ4BkqJARDgR
+EVpWWGwUBMixGNO0jLHAYx7LDFAYACR5JXfxCo5jBJ4FAoQ8BqICGYhkWqT1sUYd
+yNPuucV2YtPEIqKrJbtV1AqoijhKr5WoMnGv1X2P1b6tWCYrmnjZUqR7rTaLwyJb
+CvWeyeGwGtxWR5nVrS0lUv5/lHxJ1RR9jbqhhNjsqkWjDLSulB2qG0sjAACLMC3E
+UeSgVbWRfNWtQDyH9Q5wjyElOlIUECsJgpKNaE7BQJYEhcaIETn9iPRtSZg18pCH
+RsgQIHAIKjKgeaMOZwUZsSJPuS/2umahDKyeUyzQmXa1QBMdxTZCVfhXeUEfD09f
+j4gnN/po0bDRVWg4GTjgNbr69NZ4ud+dh79fyGqlKjn4YWzHhzsXG0zjfW0K9/7T
+b08k5o33u6jmudIiE4rKmb4/E7Y87GxFrq6zIXdD1jbXGUJP3dY2vnM0aCjiLe+S
+q9qFzuqHcnJwU3tPrt/BV2DkHeHv8q/Dm9p/6X5Ukbnr7IkL6ejK5OGd3af+qpn4
+prUl9lDu9mdyzMaXXUnO32JPBgsZ7ea8wce7MkZrq5a4hYXZD3qmHhy51jl49Nu4
+T+RtM95L/jf3t5Y/3JE2mLf16pSztxGGZ1U5LoU2BHmWrk+KPp3/Hcg9b94SGr20
+pWP7YtrInvKgsPXZH/9xcWiE5Oxnl3wX39zkvHXr3L7gRxsiD1Wq3OKzOQHxzGTp
+rz2LL2SMJ6eJp3dEJ855xZ2vZPoPjcZIdMFn2zrNIyFjs86Oa3XtIz9j10JDQqyz
++543a7pSfOD77D3Du/qswy3VbBnKTNwd9mfWkbVtnzOu+Tt7g9U4LtCwN6a5Vw16
+Tbyvwb7l6adqnLXmrREx7z2o3x0gJZqiaq9/eSZg/O7Y8y/6TWvPuVqP1T5xI8sn
+s6HG78bcDyNeOaO0cbKy9p+E+st+n/60bsOr2ZsH59NQAttdX7h8PWloIOWj6tSB
+2xdn03KGj3FTQw0zbwS9m5Cx+URb6+W61Bbv+aH+YzGWAY+JS+Wph8PnWs9EpStp
+6eteqth07rE1KXTvsLnxx3bvr/YFhlqohtyb/wI=
+=5KnU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bspang
+
+==================================================================
+
