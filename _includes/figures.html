@@ -1,0 +1,10 @@
+{% for figure in include.figures %}
+<figure style="text-align: center">
+  <p>
+  {% for image in figure.images %}
+  <img src="{{ image.url }}" alt="{{ image.description }}"/>
+  {% endfor %}
+  </p>
+  <caption align="bottom">{{ figure.caption }}</caption>
+</figure>
+{% endfor %}
