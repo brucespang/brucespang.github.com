@@ -18,7 +18,7 @@ figures:
 use_math: true
 ---
 
-We just submitted [a new paper](https://arxiv.org/abs/1809.03589) to [ITCS](http://itcs-conf.org/) on Graph-Constrained Group Testing which I'm really excited about!
+We just submitted [a new paper](https://arxiv.org/abs/1809.03589) on Graph-Constrained Group Testing which I'm really excited about!
 
 The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links?
 
