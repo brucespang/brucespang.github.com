@@ -5,7 +5,7 @@ date:   2018-05-31 10:00:00 -0700
 use_math: true
 ---
 
-I've been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there's a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there's big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them.
+I've been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there's a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there's big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I'll show that betting half your stars on green at each round is optimal.
 
 The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don't want to bet all our stars on green, since there's some decent probability we'd lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we'd be sure to make money. But this is so slow! I'm a busy grad student! I can't spend all this time gambling, so instead, let's blow an afternoon proving what the optimal strategy is using martingales.
 
