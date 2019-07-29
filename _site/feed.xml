@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator>
   
   
-  <link href="/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-05-31T14:29:27-07:00</updated>
-  <id>//</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-07-29T11:30:45-07:00</updated>
+  <id>http://localhost:4000//</id>
 
   
     <title type="html">Bruce Spang</title>
@@ -26,13 +26,98 @@
   
     <entry>
       
+      <title type="html">New paper: Unconstraining graph-constrained group testing</title>
+      
+      <link href="http://localhost:4000/2018/09/11/group-testing.html" rel="alternate" type="text/html" title="New paper: Unconstraining graph-constrained group testing" />
+      <published>2018-09-11T17:00:00-07:00</published>
+      <updated>2018-09-11T17:00:00-07:00</updated>
+      <id>http://localhost:4000/2018/09/11/group-testing</id>
+      <content type="html" xml:base="http://localhost:4000/2018/09/11/group-testing.html">&lt;p&gt;We just submitted &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;a new paper&lt;/a&gt; on Graph-Constrained Group Testing which I’m really excited about!&lt;/p&gt;
+
+&lt;p&gt;The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links?&lt;/p&gt;
+
+&lt;p&gt;This is my blog, so here’s a bonus version of the problem. Suppose you manage a large national park with lots of hiking trails. Last night there was a huge storm, and a few trails (at most $d$) have been washed out. You would like to know which trails were washed out before you reopen the park, so that you can warn visitors. The catch is that in this universe, the only way you can tell if a trail has been washed out is to hire a hiker and send them on some walk around the park. If the hiker comes back, you know every trail they visited was good. However, if they find a washed out trail, they’ll lose the trail and wander around the woods for a bit, so you know that &lt;em&gt;some&lt;/em&gt; trail they visited was bad. You could send out hikers one by one and wait for them to get back, but hey, you have a park to open here! The question is: what is the minimum number of hikers you need to send out simultaneously to find all the washed out trails?&lt;/p&gt;
+
+&lt;p&gt;Here’s the more formal version of this problem. You have a graph $G = (V,E)$ where $|V| = n, |E| = m$ and some set $B \subseteq E$ of the edges are defective. $B$ is a small set, of size at most $d$. You can test some connected subgraph $G’$ of $G$ and determine whether any edge in $B$ is in $G’$. The problem is to find the minimum number of non-adaptive tests such that $B$ can be exactly identified from the test results.&lt;/p&gt;
+
+&lt;p&gt;If there were no graph in this problem, this would be a classic problem called &lt;a href=&quot;https://en.wikipedia.org/wiki/Group_testing&quot;&gt;Combinatorial Group Testing&lt;/a&gt;. During World War II, the military was interested in finding soldiers with syphilis using some blood test. Syphilis tests were very expensive, and the military didn’t want to test everyone individually. In &lt;a href=&quot;https://projecteuclid.org/download/pdf_1/euclid.aoms/1177731363&quot;&gt;a nice paper&lt;/a&gt; from 1948, Dorfman showed that by testing &lt;em&gt;groups&lt;/em&gt; (i.e. mix a bunch of blood in a bucket and test the bucket), one could find the sick soldiers using many fewer tests.&lt;/p&gt;
+
+&lt;p&gt;Group testing (sans graph constraints) can be solved using roughly $O(d^2 \log m)$ tests. With the graph constraints, the answer is less well-known. &lt;a href=&quot;http://www.ntu.edu.sg/home/ygwen/Paper/HMWYC-Infocom-07.pdf&quot;&gt;[Harvey 2007]&lt;/a&gt; gave the answer for a number of special cases, and showed that roughly $O(d^3 \log m)$ tests were enough for certain graphs. In a later work, &lt;a href=&quot;https://arxiv.org/abs/1001.1445&quot;&gt;[Cheraghchi 2010]&lt;/a&gt; showed a cool algorithm using random walks which uses roughly $O(d^2 \text{polylog } m)$ tests for good expanders and, surprisingly, $O(d^2 \log m)$ tests for a complete graph. That is, group testing with the constraints added by the complete graph is in some sense no more difficult than group testing without constraints.&lt;/p&gt;
+
+&lt;p&gt;We show the following result: for many graphs, you can do group testing in only $O(d^2 \log m)$ tests! As long as the graph is sufficiently well-connected, you can do group testing with graph constraints “for free.” The graphs this works for includes complete graphs, good &lt;a href=&quot;https://en.wikipedia.org/wiki/Expander_graph&quot;&gt;expanders&lt;/a&gt; (e.g. random regular graphs and Erdos-Renyi graphs), and graphs which are “clusters” of good expanders (e.g. a &lt;a href=&quot;http://mathworld.wolfram.com/BarbellGraph.html&quot;&gt;barbell&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;There’s also a cool technical result about “giant components” of graphs. Suppose you have a graph, and sparsify it by constructing a subgraph which includes each edge independently with probability $p$. What does this subgraph look like? For the complete graph, this question was studied by &lt;a href=&quot;https://users.renyi.hu/~p_erdos/1959-11.pdf&quot;&gt;Erdős and Rényi&lt;/a&gt; in the 50s, and it turns out that a “giant component” - a connected component which includes lots of nodes - appears at a certain threshold. For $p=\frac{1-\epsilon}{n}$, the largest connected component has size $O(\log n)$. For $p = \frac{1+\epsilon}{n}$, the largest has size $O(n)$. It turns out (and has been known for a while) the same thing happens in expander graphs. We prove a slightly stronger version of this result about expanders, which was helpful in analyzing our algorithm. You can check out &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;the paper&lt;/a&gt; for the full details, but for now let me just show some neat pictures of giant components:&lt;/p&gt;
+
+&lt;figure style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/complete.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/complete-subgraph.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;/p&gt;
+  &lt;caption align=&quot;bottom&quot;&gt;A complete graph on 16 nodes on the left, and sparsified with probability $\frac{1 + 0.2}{16}$ on the right.&lt;/caption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/rreg.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/rreg-subgraph.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;/p&gt;
+  &lt;caption align=&quot;bottom&quot;&gt;A random regular graph (left) and sparsified (right).&lt;/caption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/barbell.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;img src=&quot;/assets/giant-components/barbell-subgraph.png&quot; alt=&quot;&quot; /&gt;
+  
+  &lt;/p&gt;
+  &lt;caption align=&quot;bottom&quot;&gt;A barbell graph (left) has two giant components (right) when sparsified.&lt;/caption&gt;
+&lt;/figure&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Bruce Spang</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">We just submitted a new paper on Graph-Constrained Group Testing which I’m really excited about! The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links? This is my blog, so here’s a bonus version of the problem. Suppose you manage a large national park with lots of hiking trails. Last night there was a huge storm, and a few trails (at most $d$) have been washed out. You would like to know which trails were washed out before you reopen the park, so that you can warn visitors. The catch is that in this universe, the only way you can tell if a trail has been washed out is to hire a hiker and send them on some walk around the park. If the hiker comes back, you know every trail they visited was good. However, if they find a washed out trail, they’ll lose the trail and wander around the woods for a bit, so you know that some trail they visited was bad. You could send out hikers one by one and wait for them to get back, but hey, you have a park to open here! The question is: what is the minimum number of hikers you need to send out simultaneously to find all the washed out trails? Here’s the more formal version of this problem. You have a graph $G = (V,E)$ where $|V| = n, |E| = m$ and some set $B \subseteq E$ of the edges are defective. $B$ is a small set, of size at most $d$. You can test some connected subgraph $G’$ of $G$ and determine whether any edge in $B$ is in $G’$. The problem is to find the minimum number of non-adaptive tests such that $B$ can be exactly identified from the test results. If there were no graph in this problem, this would be a classic problem called Combinatorial Group Testing. During World War II, the military was interested in finding soldiers with syphilis using some blood test. Syphilis tests were very expensive, and the military didn’t want to test everyone individually. In a nice paper from 1948, Dorfman showed that by testing groups (i.e. mix a bunch of blood in a bucket and test the bucket), one could find the sick soldiers using many fewer tests. Group testing (sans graph constraints) can be solved using roughly $O(d^2 \log m)$ tests. With the graph constraints, the answer is less well-known. [Harvey 2007] gave the answer for a number of special cases, and showed that roughly $O(d^3 \log m)$ tests were enough for certain graphs. In a later work, [Cheraghchi 2010] showed a cool algorithm using random walks which uses roughly $O(d^2 \text{polylog } m)$ tests for good expanders and, surprisingly, $O(d^2 \log m)$ tests for a complete graph. That is, group testing with the constraints added by the complete graph is in some sense no more difficult than group testing without constraints. We show the following result: for many graphs, you can do group testing in only $O(d^2 \log m)$ tests! As long as the graph is sufficiently well-connected, you can do group testing with graph constraints “for free.” The graphs this works for includes complete graphs, good expanders (e.g. random regular graphs and Erdos-Renyi graphs), and graphs which are “clusters” of good expanders (e.g. a barbell). There’s also a cool technical result about “giant components” of graphs. Suppose you have a graph, and sparsify it by constructing a subgraph which includes each edge independently with probability $p$. What does this subgraph look like? For the complete graph, this question was studied by Erdős and Rényi in the 50s, and it turns out that a “giant component” - a connected component which includes lots of nodes - appears at a certain threshold. For $p=\frac{1-\epsilon}{n}$, the largest connected component has size $O(\log n)$. For $p = \frac{1+\epsilon}{n}$, the largest has size $O(n)$. It turns out (and has been known for a while) the same thing happens in expander graphs. We prove a slightly stronger version of this result about expanders, which was helpful in analyzing our algorithm. You can check out the paper for the full details, but for now let me just show some neat pictures of giant components: A complete graph on 16 nodes on the left, and sparsified with probability $\frac{1 + 0.2}{16}$ on the right. A random regular graph (left) and sparsified (right). A barbell graph (left) has two giant components (right) when sparsified.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
       <title type="html">Optimal Gambling at Stardew Valley’s Roulette Wheel</title>
       
-      <link href="/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley's Roulette Wheel" />
+      <link href="http://localhost:4000/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley's Roulette Wheel" />
       <published>2018-05-31T10:00:00-07:00</published>
       <updated>2018-05-31T10:00:00-07:00</updated>
-      <id>/2018/05/31/stardew-valley-roulette</id>
-      <content type="html" xml:base="/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them.&lt;/p&gt;
+      <id>http://localhost:4000/2018/05/31/stardew-valley-roulette</id>
+      <content type="html" xml:base="http://localhost:4000/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I’ll show that betting half your stars on green at each round is optimal.&lt;/p&gt;
 
 &lt;p&gt;The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales.&lt;/p&gt;
 
@@ -81,7 +166,7 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields &lt;script type=&quot;math/tex&quot
       
 
       
-        <summary type="html">I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales. There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round. More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the Kelly Criterion, Theorem. In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$ Proof. Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since Setting $\frac{d}{d\gamma} \beta = 0$ yields $\square$</summary>
+        <summary type="html">I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I’ll show that betting half your stars on green at each round is optimal. The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales. There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round. More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the Kelly Criterion, Theorem. In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$ Proof. Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since Setting $\frac{d}{d\gamma} \beta = 0$ yields $\square$</summary>
       
 
       
@@ -94,11 +179,11 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields &lt;script type=&quot;math/tex&quot
       
       <title type="html">Some Updates</title>
       
-      <link href="/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
+      <link href="http://localhost:4000/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
       <published>2017-04-28T07:00:00-07:00</published>
       <updated>2017-04-28T07:00:00-07:00</updated>
-      <id>/2017/04/28/some-updates</id>
-      <content type="html" xml:base="/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
+      <id>http://localhost:4000/2017/04/28/some-updates</id>
+      <content type="html" xml:base="http://localhost:4000/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
 
 &lt;p&gt;I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to.&lt;/p&gt;
 
