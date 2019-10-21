@@ -1,0 +1,37 @@
+- title: Coded Trace reconstruction in a constant number of traces
+  type: preprint
+  url: http://arxiv.org/abs/1908.03996
+  authors:
+    - Joshua Brakensiek
+    - Ray Li
+    - Bruce Spang
+  date: August 2019
+  
+- title: Unconstraining Graph-Constrained Group Testing
+  type: paper
+  authors:
+    - Bruce Spang
+    - Mary Wootters
+  venue: APPROX/RANDOM
+  date: September 2019
+  url: https://arxiv.org/abs/1809.03589
+
+- title: "MON: Mission-optimized overlay networks"
+  type: paper
+  authors:
+    - Bruce Spang
+    - Anirudh Sabnis
+    - Ramesh Sitaraman
+    - Donald Towsley
+    - Brian DeCleene
+  venue: IEEE INFOCOM
+  date: May 2017
+  url: https://arxiv.org/abs/1701.08098
+
+- title: Data Purge Distribution and Coherency
+  type: patent
+  url: https://www.google.com/patents/US20150237131
+  authors:
+    - Bruce Spang
+    - Tyler McMullen
+  date: February 2014    

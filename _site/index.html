@@ -14,10 +14,13 @@
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap" rel="stylesheet">
+
+
+  <link rel="canonical" href="/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="Bruce Spang" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Bruce Spang" href="/feed.xml">
 
   
 
@@ -67,15 +70,21 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Bruce Spang</a>
+    <h1 class="site-title"><a href="/">Bruce Spang</a></h1>
 
     <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/">Home</a>
       
         
         <a class="page-link" href="/about/">About</a>
       
         
-        <a class="page-link" href="/archives/">Archives</a>
+        <a class="page-link" href="/publications/">Publications</a>
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
       
     </nav>
 
@@ -92,6 +101,57 @@
 
   
 
+  <section>
+  <h2>Publications</h2>
+  <ul class="post-list publications">
+  
+  <li class="publications">
+    <header class="post-header">
+      <h3><a class="post-link" href="http://arxiv.org/abs/1908.03996">Coded Trace reconstruction in a constant number of traces</a></h3>
+      <p class="authors">Joshua Brakensiek, Ray Li, Bruce Spang</p>
+      
+      <span class="date">August 2019</span>
+    </header>
+  </li>
+  
+  <li class="publications">
+    <header class="post-header">
+      <h3><a class="post-link" href="https://arxiv.org/abs/1809.03589">Unconstraining Graph-Constrained Group Testing</a></h3>
+      <p class="authors">Bruce Spang, Mary Wootters</p>
+      
+      <span class="venue">APPROX/RANDOM,</span>
+      
+      <span class="date">September 2019</span>
+    </header>
+  </li>
+  
+  <li class="publications">
+    <header class="post-header">
+      <h3><a class="post-link" href="https://arxiv.org/abs/1701.08098">MON: Mission-optimized overlay networks</a></h3>
+      <p class="authors">Bruce Spang, Anirudh Sabnis, Ramesh Sitaraman, Donald Towsley, Brian DeCleene</p>
+      
+      <span class="venue">IEEE INFOCOM,</span>
+      
+      <span class="date">May 2017</span>
+    </header>
+  </li>
+  
+  <li class="publications">
+    <header class="post-header">
+      <h3><a class="post-link" href="https://www.google.com/patents/US20150237131">Data Purge Distribution and Coherency</a></h3>
+      <p class="authors">Bruce Spang, Tyler McMullen</p>
+      
+      <span class="date">February 2014</span>
+    </header>
+  </li>
+  
+</ul>
+
+  </section>
+
+  <section>
+  <h2>Blog Posts</h2>
+  
   <ul class="post-list">
     
       
@@ -99,67 +159,12 @@
 
       <li>
         <header class="post-header">
-          <h2>
+          <h3>
             <a class="post-link" href="/2018/09/11/group-testing.html">New paper: Unconstraining graph-constrained group testing</a>
-          </h2>
+          </h3>
 
-          <p class="post-meta">Sep 11, 2018</p>
+          <span class="date">Sep 11, 2018</span>
         </header>
-
-        
-        <div class="post-content">
-          <p>We just submitted <a href="https://arxiv.org/abs/1809.03589">a new paper</a> on Graph-Constrained Group Testing which I’m really excited about!</p>
-
-<p>The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links?</p>
-
-<p>This is my blog, so here’s a bonus version of the problem. Suppose you manage a large national park with lots of hiking trails. Last night there was a huge storm, and a few trails (at most $d$) have been washed out. You would like to know which trails were washed out before you reopen the park, so that you can warn visitors. The catch is that in this universe, the only way you can tell if a trail has been washed out is to hire a hiker and send them on some walk around the park. If the hiker comes back, you know every trail they visited was good. However, if they find a washed out trail, they’ll lose the trail and wander around the woods for a bit, so you know that <em>some</em> trail they visited was bad. You could send out hikers one by one and wait for them to get back, but hey, you have a park to open here! The question is: what is the minimum number of hikers you need to send out simultaneously to find all the washed out trails?</p>
-
-<p>Here’s the more formal version of this problem. You have a graph $G = (V,E)$ where $|V| = n, |E| = m$ and some set $B \subseteq E$ of the edges are defective. $B$ is a small set, of size at most $d$. You can test some connected subgraph $G’$ of $G$ and determine whether any edge in $B$ is in $G’$. The problem is to find the minimum number of non-adaptive tests such that $B$ can be exactly identified from the test results.</p>
-
-<p>If there were no graph in this problem, this would be a classic problem called <a href="https://en.wikipedia.org/wiki/Group_testing">Combinatorial Group Testing</a>. During World War II, the military was interested in finding soldiers with syphilis using some blood test. Syphilis tests were very expensive, and the military didn’t want to test everyone individually. In <a href="https://projecteuclid.org/download/pdf_1/euclid.aoms/1177731363">a nice paper</a> from 1948, Dorfman showed that by testing <em>groups</em> (i.e. mix a bunch of blood in a bucket and test the bucket), one could find the sick soldiers using many fewer tests.</p>
-
-<p>Group testing (sans graph constraints) can be solved using roughly $O(d^2 \log m)$ tests. With the graph constraints, the answer is less well-known. <a href="http://www.ntu.edu.sg/home/ygwen/Paper/HMWYC-Infocom-07.pdf">[Harvey 2007]</a> gave the answer for a number of special cases, and showed that roughly $O(d^3 \log m)$ tests were enough for certain graphs. In a later work, <a href="https://arxiv.org/abs/1001.1445">[Cheraghchi 2010]</a> showed a cool algorithm using random walks which uses roughly $O(d^2 \text{polylog } m)$ tests for good expanders and, surprisingly, $O(d^2 \log m)$ tests for a complete graph. That is, group testing with the constraints added by the complete graph is in some sense no more difficult than group testing without constraints.</p>
-
-<p>We show the following result: for many graphs, you can do group testing in only $O(d^2 \log m)$ tests! As long as the graph is sufficiently well-connected, you can do group testing with graph constraints “for free.” The graphs this works for includes complete graphs, good <a href="https://en.wikipedia.org/wiki/Expander_graph">expanders</a> (e.g. random regular graphs and Erdos-Renyi graphs), and graphs which are “clusters” of good expanders (e.g. a <a href="http://mathworld.wolfram.com/BarbellGraph.html">barbell</a>).</p>
-
-<p>There’s also a cool technical result about “giant components” of graphs. Suppose you have a graph, and sparsify it by constructing a subgraph which includes each edge independently with probability $p$. What does this subgraph look like? For the complete graph, this question was studied by <a href="https://users.renyi.hu/~p_erdos/1959-11.pdf">Erdős and Rényi</a> in the 50s, and it turns out that a “giant component” - a connected component which includes lots of nodes - appears at a certain threshold. For $p=\frac{1-\epsilon}{n}$, the largest connected component has size $O(\log n)$. For $p = \frac{1+\epsilon}{n}$, the largest has size $O(n)$. It turns out (and has been known for a while) the same thing happens in expander graphs. We prove a slightly stronger version of this result about expanders, which was helpful in analyzing our algorithm. You can check out <a href="https://arxiv.org/abs/1809.03589">the paper</a> for the full details, but for now let me just show some neat pictures of giant components:</p>
-
-<figure style="text-align: center">
-  <p>
-  
-  <img src="/assets/giant-components/complete.png" alt="" />
-  
-  <img src="/assets/giant-components/complete-subgraph.png" alt="" />
-  
-  </p>
-  <caption align="bottom">A complete graph on 16 nodes on the left, and sparsified with probability $\frac{1 + 0.2}{16}$ on the right.</caption>
-</figure>
-
-<figure style="text-align: center">
-  <p>
-  
-  <img src="/assets/giant-components/rreg.png" alt="" />
-  
-  <img src="/assets/giant-components/rreg-subgraph.png" alt="" />
-  
-  </p>
-  <caption align="bottom">A random regular graph (left) and sparsified (right).</caption>
-</figure>
-
-<figure style="text-align: center">
-  <p>
-  
-  <img src="/assets/giant-components/barbell.png" alt="" />
-  
-  <img src="/assets/giant-components/barbell-subgraph.png" alt="" />
-  
-  </p>
-  <caption align="bottom">A barbell graph (left) has two giant components (right) when sparsified.</caption>
-</figure>
-
-
-        </div>
-        
       </li>
     
       
@@ -167,47 +172,12 @@
 
       <li>
         <header class="post-header">
-          <h2>
+          <h3>
             <a class="post-link" href="/2018/05/31/stardew-valley-roulette.html">Optimal Gambling at Stardew Valley&#39;s Roulette Wheel</a>
-          </h2>
+          </h3>
 
-          <p class="post-meta">May 31, 2018</p>
+          <span class="date">May 31, 2018</span>
         </header>
-
-        
-        <div class="post-content">
-          <p>I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I’ll show that betting half your stars on green at each round is optimal.</p>
-
-<p>The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales.</p>
-
-<p>There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round.</p>
-
-<p>More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, <script type="math/tex">X_{n+1} = X_n + \gamma Y_n X_n = X_n(1+\gamma Y_n).</script></p>
-
-<p>Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the <a href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a>,</p>
-
-<p><strong>Theorem.</strong>  <em>In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$</em></p>
-
-<p><em>Proof.</em> Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, <script type="math/tex">% <![CDATA[
-\begin{align*}
-  \E[Z_n | F_{n-1}] &= S_{n-1} + \E[\log(1+\gamma Y_i)] - \beta(n-1) - \beta,\\
-                    &= S_{n-1} + p\log(1+\gamma)+(1-p)\log(1-\gamma) - \beta(n-1) - \beta,\\
-                    &= S_{n-1} - \beta(n-1).
-\end{align*} %]]></script></p>
-
-<p>Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, <script type="math/tex">% <![CDATA[
-\begin{align*}
-Z_0 &= \E[Z_{T_a}],\\
-\log(X_0) &= \E[ S_{T_a} - \beta T_a],\\
-    &= \log(a) - \beta \E T_a,\\
-\E T_a &= \frac{\log(a) - \log(X_0)}{\beta}.
-\end{align*} %]]></script></p>
-
-<p>It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since <script type="math/tex">\frac{d}{d\gamma} \beta = \frac{1+\gamma-2p}{\gamma^2-1},</script>
-Setting $\frac{d}{d\gamma} \beta = 0$ yields <script type="math/tex">\gamma = 2p-1.</script> $\square$</p>
-
-        </div>
-        
       </li>
     
       
@@ -215,33 +185,16 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields <script type="math/tex">\gamma = 2p
 
       <li>
         <header class="post-header">
-          <h2>
+          <h3>
             <a class="post-link" href="/2017/04/28/some-updates.html">Some Updates</a>
-          </h2>
+          </h3>
 
-          <p class="post-meta">Apr 28, 2017</p>
+          <span class="date">Apr 28, 2017</span>
         </header>
-
-        
-        <div class="post-content">
-          <p>Hey pals,</p>
-
-<p>I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to.</p>
-
-<p>Next week, I’m presenting our paper <a href="http://arxiv.org/abs/1701.08098">“MON: Mission-optimized Overlay Networks”</a> (my first paper!!) at INFOCOM in Atlanta. We looked at designing an overlay network which optimally routes traffic. There’s a tradeoff with these systems between a centralized system which solves the problem exactly but is not very resilient, and a distributed system which solves the problem inexactly but which is reliable and responds quickly to changes. We propose what I think is a very cool two-layer architecture. It uses some TCP trickery to combine the strengths of both the centralized and distributed systems. Check out the paper on <a href="http://arxiv.org/abs/1701.08098">arXiv</a></p>
-
-<p>The week after next, I’m graduating from UMass with my Master’s in computer science. I’m working on a thesis about estimating the capacity of a network using TCP measurements. I’ve submitted a short version of it to the <a href="https://www.sigmetrics.org/mama/">MAMA workshop</a> and will share the thesis as soon as I finish writing it.</p>
-
-<p>In September, I’m moving to Palo Alto and starting a PhD at Stanford! If you live in the Bay Area, hopefully I will see more of you!</p>
-
-        </div>
-        
       </li>
     
   </ul>
-
-  
-
+  </section>
 
 </div>
 

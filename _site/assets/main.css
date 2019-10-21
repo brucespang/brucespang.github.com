@@ -1,3 +1,8 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.618em; }
+
 /**
  * Reset some basic elements
  */
@@ -11,7 +16,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/2 "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
+  font: 400 1em/1.618em "Open Sans", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -28,7 +33,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 1em; }
 
 /**
  * Images
@@ -44,13 +49,13 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 0.875em; }
 
 /**
  * Lists
  */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 2em; }
 
 li > ul,
 li > ol {
@@ -82,7 +87,7 @@ a {
 blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
+  padding-left: 1em;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -94,7 +99,7 @@ blockquote {
  */
 hr {
   height: 4px;
-  margin: 15px 0;
+  margin: 1em 0;
   border: 0;
   background-color: #e8e8e8; }
 
@@ -124,18 +129,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(800px - (2em * 2));
+  max-width: calc(800px - (2em * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  padding-right: 2em;
+  padding-left: 2em; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(800px - (2em));
+      max-width: calc(800px - (2em));
+      padding-right: 1em;
+      padding-left: 1em; } }
 
 /**
  * Clearfix
@@ -167,7 +172,7 @@ pre {
   line-height: 56px; }
   .site-nav .page-link {
     color: #111;
-    line-height: 2; }
+    line-height: 1.618em; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -181,7 +186,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 30px 0;
+  padding: 2em 0;
   font-size: 15px;
   color: #828282;
   text-align: center; }
@@ -190,7 +195,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 2em 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -200,11 +205,6 @@ pre {
   list-style: none; }
   .post-list .post-link:hover {
     text-decoration: none; }
-  .post-list > li {
-    margin-bottom: 60px; }
-    .post-list > li:not(:first-child) {
-      border-top: 4px solid #e8e8e8;
-      padding-top: 60px; }
 
 .post-archives {
   margin-left: 0;
@@ -212,16 +212,11 @@ pre {
   .post-archives .post-link {
     font-size: 24px; }
   .post-archives > li {
-    margin-bottom: 30px; }
+    margin-bottom: 2em; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #828282; }
-
-.post-link, .post-link:visited {
-  color: #111; }
-.post-link:hover {
-  color: #002F63; }
 
 .post-continue a {
   padding: 8px 15px;
@@ -236,9 +231,6 @@ pre {
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: 30px; }
-
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
@@ -248,7 +240,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 2em; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
@@ -269,7 +261,7 @@ pre {
  * Pagination
  */
 .pagination {
-  padding: 15px 0;
+  padding: 1em 0;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
   text-align: center; }
@@ -423,8 +415,44 @@ pre {
   .highlight .il {
     color: #099; }
 
-.site-title, .site-title:visited {
+.site-header {
+  margin-top: 1em; }
+
+.site-title {
+  font-size: 3em;
+  font-weight: 600; }
+  .site-title a, .site-title a:visited {
+    color: #111; }
+  .site-title a:hover {
+    text-decoration: none; }
+
+a, a:visited, a:hover {
   color: #002F63; }
 
 .post-content a {
   text-decoration: underline; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.125em; }
+
+section {
+  margin-bottom: 2em; }
+
+.post-list h3 {
+  margin-bottom: 0;
+  padding: 0; }
+
+.post-list li {
+  margin-bottom: 1em; }
+
+.publications .authors {
+  margin-bottom: 0; }
+
+.publications .venue {
+  font-style: italic; }

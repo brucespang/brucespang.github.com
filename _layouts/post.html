@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     {% if page.external-url %}
-      <h1 class="post-title" itemprop="name headline"><a href="{{ page.external-url }}">{{ page.title | escape }} &rarr;</a></h1>
+      <h2 class="post-title" itemprop="name headline"><a href="{{ page.external-url }}">{{ page.title | escape }} &rarr;</a></h2>
     {% else %}
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     {% endif %}

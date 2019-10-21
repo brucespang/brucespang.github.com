@@ -1,0 +1,20 @@
+---
+---
+
+<h2>{{ entry.title }}</h2>
+<p class="authors">
+  {% for i in (0..entry.author_array.size-1) %}
+  {{ entry.author_array[i].first }} {{entry.author_array[i].last}},
+  {% endfor %}
+  {{ entry.author_array.last.first }} {{entry.author_array.last.last}}
+</p>
+
+<p class="location">
+  {{ entry.booktitle }}
+</p>
+
+{% assign urls = entry.url | split: ";" %}
+{% for url in urls %}
+{% assign fields = url | split: ","%}
+[<a href="{{ fields[1] | strip }}">{{fields[0] | strip }}</a>]
+{% endfor %}
