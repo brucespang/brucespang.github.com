@@ -5,6 +5,8 @@ date:   2018-05-31 10:00:00 -0700
 use_math: true
 ---
 
+![The stardew valley wheel](/assets/stardew-wheel.png)
+
 I've been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there's a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there's big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them.
 
 In this post, I'll show that the optimal strategy is to **bet half your stars on green in each round.**
