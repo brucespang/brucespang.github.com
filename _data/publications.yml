@@ -1,3 +1,26 @@
+- title: Buffer Sizing and Video QoE Measurements at Netflix
+  type: workshop
+  url: /papers/netflix-buffer-sizing.pdf
+  authors:
+    - Bruce Spang
+    - Brady Walsh
+    - Te-Yuan Huang
+    - Tom Rusnock
+    - Joe Lawrence
+    - Nick McKeown
+  venue: Buffer Sizing Workshop
+  date: December 2019
+
+- title: On Estimating the Number of Flows
+  type: workshop
+  url: /papers/estimating-n.pdf
+  authors:
+    - Bruce Spang
+    - Nick McKeown
+  venue: Buffer Sizing Workshop
+  date: December 2019
+    
+    
 - title: Coded Trace reconstruction in a constant number of traces
   type: preprint
   url: http://arxiv.org/abs/1908.03996
@@ -5,6 +28,7 @@
     - Joshua Brakensiek
     - Ray Li
     - Bruce Spang
+  venue: Preprint
   date: August 2019
   
 - title: Unconstraining Graph-Constrained Group Testing
@@ -34,4 +58,4 @@
   authors:
     - Bruce Spang
     - Tyler McMullen
-  date: February 2014    
+  date: February 2014
