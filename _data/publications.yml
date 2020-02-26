@@ -50,8 +50,8 @@
 - title: "MON: Mission-optimized overlay networks"
   type: paper
   links:
-    slides: /slides/mon.pdf
     paper: https://arxiv.org/abs/1701.08098
+    slides: /slides/mon.pdf
   authors:
     - Bruce Spang
     - Anirudh Sabnis
