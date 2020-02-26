@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="4.0.0">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-26T13:01:15-08:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-02-26T13:04:53-08:00</updated>
+  <id>//</id>
 
   
     <title type="html">Bruce Spang</title>
@@ -28,11 +28,11 @@
       
       <title type="html">Three new papers for Autumn/Winter 2019</title>
       
-      <link href="http://localhost:4000/2019/11/21/AW2019.html" rel="alternate" type="text/html" title="Three new papers for Autumn/Winter 2019" />
+      <link href="/2019/11/21/AW2019.html" rel="alternate" type="text/html" title="Three new papers for Autumn/Winter 2019" />
       <published>2019-11-21T09:00:00-08:00</published>
       <updated>2019-11-21T09:00:00-08:00</updated>
-      <id>http://localhost:4000/2019/11/21/AW2019</id>
-      <content type="html" xml:base="http://localhost:4000/2019/11/21/AW2019.html">&lt;p&gt;It’s been a productive summer/fall, and as a result we have three new papers published/in submission.&lt;/p&gt;
+      <id>/2019/11/21/AW2019</id>
+      <content type="html" xml:base="/2019/11/21/AW2019.html">&lt;p&gt;It’s been a productive summer/fall, and as a result we have three new papers published/in submission.&lt;/p&gt;
 
 &lt;h2 id=&quot;buffer-sizing-and-video-qoe-measurements-at-netflix&quot;&gt;&lt;a href=&quot;/papers/netflix-buffer-sizing.pdf&quot;&gt;Buffer Sizing and Video QoE Measurements at Netflix&lt;/a&gt;&lt;/h2&gt;
 
@@ -94,11 +94,11 @@
       
       <title type="html">New paper: Unconstraining graph-constrained group testing</title>
       
-      <link href="http://localhost:4000/2018/09/11/group-testing.html" rel="alternate" type="text/html" title="New paper: Unconstraining graph-constrained group testing" />
+      <link href="/2018/09/11/group-testing.html" rel="alternate" type="text/html" title="New paper: Unconstraining graph-constrained group testing" />
       <published>2018-09-11T17:00:00-07:00</published>
       <updated>2018-09-11T17:00:00-07:00</updated>
-      <id>http://localhost:4000/2018/09/11/group-testing</id>
-      <content type="html" xml:base="http://localhost:4000/2018/09/11/group-testing.html">&lt;p&gt;We just submitted &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;a new paper&lt;/a&gt; on Graph-Constrained Group Testing which I’m really excited about!&lt;/p&gt;
+      <id>/2018/09/11/group-testing</id>
+      <content type="html" xml:base="/2018/09/11/group-testing.html">&lt;p&gt;We just submitted &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;a new paper&lt;/a&gt; on Graph-Constrained Group Testing which I’m really excited about!&lt;/p&gt;
 
 &lt;p&gt;The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links?&lt;/p&gt;
 
@@ -179,11 +179,11 @@
       
       <title type="html">Optimal Gambling at Stardew Valley’s Roulette Wheel</title>
       
-      <link href="http://localhost:4000/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley's Roulette Wheel" />
+      <link href="/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley's Roulette Wheel" />
       <published>2018-05-31T10:00:00-07:00</published>
       <updated>2018-05-31T10:00:00-07:00</updated>
-      <id>http://localhost:4000/2018/05/31/stardew-valley-roulette</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;&lt;img src=&quot;/assets/stardew-wheel.png&quot; alt=&quot;The stardew valley wheel&quot; /&gt;&lt;/p&gt;
+      <id>/2018/05/31/stardew-valley-roulette</id>
+      <content type="html" xml:base="/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;&lt;img src=&quot;/assets/stardew-wheel.png&quot; alt=&quot;The stardew valley wheel&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them.&lt;/p&gt;
 
@@ -249,11 +249,11 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields &lt;script type=&quot;math/tex&quot
       
       <title type="html">Some Updates</title>
       
-      <link href="http://localhost:4000/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
+      <link href="/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
       <published>2017-04-28T07:00:00-07:00</published>
       <updated>2017-04-28T07:00:00-07:00</updated>
-      <id>http://localhost:4000/2017/04/28/some-updates</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
+      <id>/2017/04/28/some-updates</id>
+      <content type="html" xml:base="/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
 
 &lt;p&gt;I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to.&lt;/p&gt;
 
