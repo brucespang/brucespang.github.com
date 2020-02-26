@@ -10,9 +10,14 @@ layout: default
 
   <section>
   <h2>Publications</h2>
-  {% include publications.html %}
+  {% include publications.html publications=site.data.publications %}
   </section>
 
+  <section>
+  <h2>Talks</h2>
+  {% include publications.html publications=site.data.talks %}
+  </section>
+  
   <section>
   <h2>Blog Posts</h2>
   

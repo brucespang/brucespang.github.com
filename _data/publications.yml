@@ -1,6 +1,8 @@
 - title: Buffer Sizing and Video QoE Measurements at Netflix
   type: workshop
-  url: /papers/netflix-buffer-sizing.pdf
+  links:
+    paper: /papers/netflix-buffer-sizing.pdf
+    slides: /slides/netflix-buffer-sizing.pdf
   authors:
     - Bruce Spang
     - Brady Walsh
@@ -13,17 +15,19 @@
 
 - title: On Estimating the Number of Flows
   type: workshop
-  url: /papers/estimating-n.pdf
+  links:
+    paper: /papers/estimating-n.pdf
+    slides: /slides/estimating-n.pdf
   authors:
     - Bruce Spang
     - Nick McKeown
   venue: Buffer Sizing Workshop
   date: December 2019
-    
-    
+  
 - title: Coded Trace reconstruction in a constant number of traces
   type: preprint
-  url: http://arxiv.org/abs/1908.03996
+  links:
+    paper: http://arxiv.org/abs/1908.03996
   authors:
     - Joshua Brakensiek
     - Ray Li
@@ -33,15 +37,21 @@
   
 - title: Unconstraining Graph-Constrained Group Testing
   type: paper
+  links:
+    paper: https://arxiv.org/abs/1809.03589
+    slides (keynote): /slides/graph-group-testing.key
+    slides (pdf): /slides/graph-group-testing.pdf
   authors:
     - Bruce Spang
     - Mary Wootters
   venue: APPROX/RANDOM
   date: September 2019
-  url: https://arxiv.org/abs/1809.03589
 
 - title: "MON: Mission-optimized overlay networks"
   type: paper
+  links:
+    slides: /slides/mon.pdf
+    paper: https://arxiv.org/abs/1701.08098
   authors:
     - Bruce Spang
     - Anirudh Sabnis
@@ -50,12 +60,32 @@
     - Brian DeCleene
   venue: IEEE INFOCOM
   date: May 2017
-  url: https://arxiv.org/abs/1701.08098
-
+  note: Best in Session Presentation Award
+    
 - title: Data Purge Distribution and Coherency
   type: patent
-  url: https://www.google.com/patents/US20150237131
+  links:
+    patent: https://www.google.com/patents/US20150237131
   authors:
     - Bruce Spang
     - Tyler McMullen
+  venue: Patent
   date: February 2014
+
+- title: Building a Fast and Reliable Purging System
+  type: blog
+  links:
+    blog post: https://www.fastly.com/blog/building-fast-and-reliable-purging-system
+  authors:
+    - Bruce Spang
+  venue: Fastly Blog
+  date: February 2014
+  
+- title: Color Coding
+  type: blog
+  links:
+    blog post: https://dribbble.com/stories/2011/05/26/color-coding
+  authors:
+    - Bruce Spang
+  venue: Dribbble Blog
+  date: May 2011

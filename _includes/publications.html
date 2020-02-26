@@ -1,13 +1,21 @@
 <ul class="post-list publications">
-  {% for pub in site.data.publications %}
+  {% for pub in include.publications %}
   <li class="publications">
     <header class="post-header">
-      <h3><a class="post-link" href="{{ pub.url }}">{{ pub.title }}</a></h3>
+      <h3>{{ pub.title }}</h3>
       <p class="authors">{{ pub.authors | join: ", " }}</p>
       {% if pub.venue %}
       <span class="venue">{{ pub.venue }},</span>
       {% endif %}
       <span class="date">{{ pub.date }}</span>
+      {% if pub.note %}
+      <span class="note">({{ pub.note }})</span>
+      {% endif %}
+      <ul class="links">
+        {% for link in pub.links %}
+        <li>[<a href="{{ link[1] }}">{{ link[0] }}</a>]</li>
+        {% endfor %}
+      </ul>
     </header>
   </li>
   {% endfor %}

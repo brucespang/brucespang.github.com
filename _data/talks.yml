@@ -1,0 +1,32 @@
+- title: Buffer Sizing and Video QoE Measurements at Netflix
+  type: talk
+  links:
+    slides: /slides/netflix-buffer-sizing.pdf
+    video: https://youtu.be/otENYY1jIbY
+  venue: NANOG 78 - San Francisco
+  date: February 2020
+  
+- title: On the Detection of Defective Members of Large Populations
+  type: talk
+  links:
+    slides (keynote): /slides/papers-we-love-11-21-19.key
+    slides (pdf): /slides/papers-we-love-11-21-19.pdf
+    video: https://youtu.be/HfO_6bKsy_g
+  venue: Papers We Love SF
+  date: November 2019
+  
+- title: Developing a Globally Distributed Purging System
+  type: talk
+  links:
+    slides: https://speakerdeck.com/brucespang/papers-prototypes-and-production-developing-a-globally-distributed-purging-system
+    video: https://youtu.be/HfO_6bKsy_g
+  venue: Velocity Barcelona
+  date: November 2014
+
+- title: Bimodal Multicast
+  type: talk
+  links:
+    slides: http://brucespang.com/bimodal/
+    video: https://www.youtube.com/watch?v=iBvWB2K2ULU
+  venue: Papers we Love SF
+  date: May 2014
