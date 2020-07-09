@@ -1,3 +1,14 @@
+- title: Coded Trace reconstruction in a constant number of traces
+  type: preprint
+  links:
+    paper: http://arxiv.org/abs/1908.03996
+  authors:
+    - Joshua Brakensiek
+    - Ray Li
+    - Bruce Spang
+  venue: FOCS
+  date: November 2020
+  
 - title: Buffer Sizing and Video QoE Measurements at Netflix
   type: workshop
   links:
@@ -23,17 +34,6 @@
     - Nick McKeown
   venue: Buffer Sizing Workshop
   date: December 2019
-  
-- title: Coded Trace reconstruction in a constant number of traces
-  type: preprint
-  links:
-    paper: http://arxiv.org/abs/1908.03996
-  authors:
-    - Joshua Brakensiek
-    - Ray Li
-    - Bruce Spang
-  venue: Preprint
-  date: August 2019
   
 - title: Unconstraining Graph-Constrained Group Testing
   type: paper
