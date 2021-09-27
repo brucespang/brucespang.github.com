@@ -1,5 +1,16 @@
+- title: Updating the Theory of Buffer Sizing
+  type: paper
+  links:
+    paper: https://arxiv.org/abs/2109.11693
+  authors:
+    - Bruce Spang
+    - Serhat Arslan
+    - Nick McKeown
+  venue: IFIP Performance
+  date: November 2021
+
 - title: Coded Trace reconstruction in a constant number of traces
-  type: preprint
+  type: paper
   links:
     paper: http://arxiv.org/abs/1908.03996
     talk by Ray: https://www.youtube.com/watch?v=KNXYha29Sco&list=PL3DbynX8gwfJ6rSvo_2LZ6qKahHtrVBfJ&index=6&ab_channel=IEEEFOCS%3AFoundationsofComputerScience
