@@ -1,5 +1,8 @@
 - title: Unbiased Experiments in Congested Networks
   type: paper
+  prize:
+    name: IETF Applied Networking Research Prize
+    url: https://irtf.org/anrp/
   links:
     paper: https://arxiv.org/abs/2110.00118
     video: https://youtu.be/eGjU_C8p3NE
@@ -88,7 +91,8 @@
     - Brian DeCleene
   venue: IEEE INFOCOM
   date: May 2017
-  note: Best in Session Presentation Award
+  prize:
+    name: Best in Session Presentation Award
     
 - title: Data Purge Distribution and Coherency
   type: patent

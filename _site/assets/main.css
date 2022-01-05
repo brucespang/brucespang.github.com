@@ -282,6 +282,8 @@ section { margin-bottom: 2em; }
 
 .publications .venue { font-style: italic; }
 
+.publications .prize { display: block; font-weight: bold; }
+
 .publications .links { margin: 0; }
 
 .publications .links li { display: inline; }

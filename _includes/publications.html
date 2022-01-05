@@ -11,6 +11,15 @@
       {% if pub.note %}
       <span class="note">({{ pub.note }})</span>
       {% endif %}
+      {% if pub.prize %}
+      <span class="prize">
+        {% if pub.prize.url %}
+        <a href="{{ pub.prize.url }}">{{ pub.prize.name }}</a>
+        {% else %}
+        {{ pub.prize.name }}
+        {% endif %}
+      </span>
+      {% endif %}
       <ul class="links">
         {% for link in pub.links %}
         <li>[<a href="{{ link[1] }}">{{ link[0] }}</a>]</li>
