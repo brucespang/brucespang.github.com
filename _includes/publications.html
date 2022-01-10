@@ -14,7 +14,7 @@
       {% if pub.prize %}
       <span class="prize">
         {% if pub.prize.url %}
-        <a href="{{ pub.prize.url }}">{{ pub.prize.name }}</a>
+        <a href="{{ pub.prize.url }}">Awarded {{ pub.prize.name }}</a>
         {% else %}
         {{ pub.prize.name }}
         {% endif %}
