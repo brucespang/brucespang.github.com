@@ -1,3 +1,15 @@
+- title: Strong Anonymity for Mesh Messaging
+  type: paper
+  links:
+    paper: https://arxiv.org/abs/2207.04145
+  authors:
+    - Neil Perry
+    - Bruce Spang
+    - Saba Eskandarian
+    - Dan Boneh
+  venue: Preprint
+  date: July 2022
+
 - title: Unbiased Experiments in Congested Networks
   type: paper
   prize:
