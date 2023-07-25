@@ -1,14 +1,29 @@
-- title: Strong Anonymity for Mesh Messaging
+- title: "Sammy: smoothing video traffic to be a friendly internet neighbor"
   type: paper
   links:
-    paper: https://arxiv.org/abs/2207.04145
+    paper: /papers/sammy.pdf
+    github: https://github.com/brucespang/sammy
+    demo site: https://sammy.brucespang.com
   authors:
-    - Neil Perry
     - Bruce Spang
-    - Saba Eskandarian
-    - Dan Boneh
-  venue: Preprint
-  date: July 2022
+    - Shravya Kunamalla
+    - Renata Teixeira
+    - Te-Yuan Huang
+    - Grenville Armitage
+    - Ramesh Johari
+    - Nick McKeown
+  venue: SIGCOMM
+  date: September 2023
+
+- title: Making Video Traffic a Friendlier Internet Neighbor
+  type: thesis
+  links:
+    thesis: /papers/phd-thesis.pdf
+    defense video: https://www.youtube.com/watch?v=ZmBbwjfz0e4
+  authors:
+    - Bruce Spang
+  venue: PhD Thesis
+  date: June 2023
 
 - title: Unbiased Experiments in Congested Networks
   type: paper
@@ -28,6 +43,18 @@
     - Ramesh Johari
   venue: IMC
   date: November 2021
+
+- title: Strong Anonymity for Mesh Messaging
+  type: paper
+  links:
+    paper: https://arxiv.org/abs/2207.04145
+  authors:
+    - Neil Perry
+    - Bruce Spang
+    - Saba Eskandarian
+    - Dan Boneh
+  venue: Preprint
+  date: July 2022
 
 - title: Updating the Theory of Buffer Sizing
   type: paper
