@@ -1,3 +1,15 @@
+- title: "Green With Envy: Unfair Congestion Control Algorithms Can Be More Energy Efficient"
+  type: paper
+  links:
+    paper: /papers/green-with-envy.pdf
+    github: https://github.com/serhatarslan-hub/power-of-cc
+  authors:
+    - Serhat Arslan
+    - Sundararajan Renganathan
+    - Bruce Spang
+  venue: HotNets
+  date: November 2023
+
 - title: "Sammy: smoothing video traffic to be a friendly internet neighbor"
   type: paper
   links:
