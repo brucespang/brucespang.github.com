@@ -1,15 +1,3 @@
-- title: "Green With Envy: Unfair Congestion Control Algorithms Can Be More Energy Efficient"
-  type: paper
-  links:
-    paper: /papers/green-with-envy.pdf
-    github: https://github.com/serhatarslan-hub/power-of-cc
-  authors:
-    - Serhat Arslan
-    - Sundararajan Renganathan
-    - Bruce Spang
-  venue: HotNets
-  date: November 2023
-
 - title: "Sammy: smoothing video traffic to be a friendly internet neighbor"
   type: paper
   links:
@@ -31,6 +19,9 @@
 
 - title: Making Video Traffic a Friendlier Internet Neighbor
   type: thesis
+  prize:
+    name: 2024 SIGCOMM Doctoral Dissertation Award Runner-up
+    url: https://www.sigcomm.org/awards/dissertation
   links:
     thesis: /papers/phd-thesis.pdf
     slides: https://docs.google.com/presentation/d/1vQWYDiIEMrT6y_Sw1qrOmx2Rew63s9YdlF_uwv718RY/edit?usp=sharing
@@ -39,6 +30,18 @@
     - Bruce Spang
   venue: PhD Thesis
   date: June 2023
+
+- title: "Green With Envy: Unfair Congestion Control Algorithms Can Be More Energy Efficient"
+  type: paper
+  links:
+    paper: /papers/green-with-envy.pdf
+    github: https://github.com/serhatarslan-hub/power-of-cc
+  authors:
+    - Serhat Arslan
+    - Sundararajan Renganathan
+    - Bruce Spang
+  venue: HotNets
+  date: November 2023  
 
 - title: Unbiased Experiments in Congested Networks
   type: paper
