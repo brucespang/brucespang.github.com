@@ -51,6 +51,7 @@
   links:
     paper: https://arxiv.org/abs/2110.00118
     video: https://youtu.be/eGjU_C8p3NE
+    slides: https://docs.google.com/presentation/d/1IaKRXPbRdz1FlT7R_AmZ-VhcCLBI_kPue42C3iQbKak/edit?slide=id.gf8bc968417_0_0#slide=id.gf8bc968417_0_0
     APNIC blog post: https://blog.apnic.net/2022/05/11/reducing-bias-of-networking-a-b-tests/
   authors:
     - Bruce Spang
