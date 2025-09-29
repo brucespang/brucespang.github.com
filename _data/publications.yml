@@ -80,6 +80,7 @@
   links:
     paper: https://arxiv.org/abs/2109.11693
     video: https://youtu.be/pBgeSBFvz5c
+    github: https://github.com/brucespang/ifip21-buffer-sizing
   authors:
     - Bruce Spang
     - Serhat Arslan
