@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <generator uri="http://jekyllrb.com" version="4.0.0">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
   
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-07-25T15:24:14-07:00</updated>
+  <updated>2026-04-29T14:45:43-07:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -179,7 +179,7 @@
       
       <title type="html">Optimal Gambling at Stardew Valley’s Roulette Wheel</title>
       
-      <link href="http://localhost:4000/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley's Roulette Wheel" />
+      <link href="http://localhost:4000/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley&apos;s Roulette Wheel" />
       <published>2018-05-31T10:00:00-07:00</published>
       <updated>2018-05-31T10:00:00-07:00</updated>
       <id>http://localhost:4000/2018/05/31/stardew-valley-roulette</id>
@@ -193,29 +193,27 @@
 
 &lt;p&gt;There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round.&lt;/p&gt;
 
-&lt;p&gt;More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, &lt;script type=&quot;math/tex&quot;&gt;X_{n+1} = X_n + \gamma Y_n X_n = X_n(1+\gamma Y_n).&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, \(X_{n+1} = X_n + \gamma Y_n X_n = X_n(1+\gamma Y_n).\)&lt;/p&gt;
 
 &lt;p&gt;Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Kelly_criterion&quot;&gt;Kelly Criterion&lt;/a&gt;,&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt;  &lt;em&gt;In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-  \E[Z_n | F_{n-1}] &amp;= S_{n-1} + \E[\log(1+\gamma Y_i)] - \beta(n-1) - \beta,\\
-                    &amp;= S_{n-1} + p\log(1+\gamma)+(1-p)\log(1-\gamma) - \beta(n-1) - \beta,\\
-                    &amp;= S_{n-1} - \beta(n-1).
-\end{align*} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, \(\begin{align*}
+  \E[Z_n | F_{n-1}] &amp;amp;= S_{n-1} + \E[\log(1+\gamma Y_i)] - \beta(n-1) - \beta,\\
+                    &amp;amp;= S_{n-1} + p\log(1+\gamma)+(1-p)\log(1-\gamma) - \beta(n-1) - \beta,\\
+                    &amp;amp;= S_{n-1} - \beta(n-1).
+\end{align*}\)&lt;/p&gt;
 
-&lt;p&gt;Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-Z_0 &amp;= \E[Z_{T_a}],\\
-\log(X_0) &amp;= \E[ S_{T_a} - \beta T_a],\\
-    &amp;= \log(a) - \beta \E T_a,\\
-\E T_a &amp;= \frac{\log(a) - \log(X_0)}{\beta}.
-\end{align*} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, \(\begin{align*}
+Z_0 &amp;amp;= \E[Z_{T_a}],\\
+\log(X_0) &amp;amp;= \E[ S_{T_a} - \beta T_a],\\
+    &amp;amp;= \log(a) - \beta \E T_a,\\
+\E T_a &amp;amp;= \frac{\log(a) - \log(X_0)}{\beta}.
+\end{align*}\)&lt;/p&gt;
 
-&lt;p&gt;It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since &lt;script type=&quot;math/tex&quot;&gt;\frac{d}{d\gamma} \beta = \frac{1+\gamma-2p}{\gamma^2-1},&lt;/script&gt;
-Setting $\frac{d}{d\gamma} \beta = 0$ yields &lt;script type=&quot;math/tex&quot;&gt;\gamma = 2p-1.&lt;/script&gt; $\square$&lt;/p&gt;</content>
+&lt;p&gt;It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since \(\frac{d}{d\gamma} \beta = \frac{1+\gamma-2p}{\gamma^2-1},\)
+Setting $\frac{d}{d\gamma} \beta = 0$ yields \(\gamma = 2p-1.\) $\square$&lt;/p&gt;</content>
 
       
       
@@ -236,7 +234,7 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields &lt;script type=&quot;math/tex&quot
       
 
       
-        <summary type="html">I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I’ll show that the optimal strategy is to bet half your stars on green in each round. The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales. There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round. More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the Kelly Criterion, Theorem. In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$ Proof. Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since Setting $\frac{d}{d\gamma} \beta = 0$ yields $\square$</summary>
+        <summary type="html">I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them. In this post, I’ll show that the optimal strategy is to bet half your stars on green in each round. The only thing standing between us and the rare scarecrow of our dreams is finding the optimal way to bet on this wheel. Obviously we don’t want to bet all our stars on green, since there’s some decent probability we’d lose everything. On the other hand, if we bet just one star each time, we would win an average of 1.5 stars for each star we bet, and if we played long enough we’d be sure to make money. But this is so slow! I’m a busy grad student! I can’t spend all this time gambling, so instead, let’s blow an afternoon proving what the optimal strategy is using martingales. There are many options for defining an optimal strategy, but since it only takes 800 stars to win the rare scarecrow, we’ll say the optimal strategy minimizes the expected time it takes to reach 800 stars. We’ll prove that the optimal strategy is to bet half your stars each round. More formally, let $X_n$ be the number of stars we have at round $n$, $\gamma$ the fraction of $X_n$ we bet, $\{Y_n\}_{n=0}^\infty$ be independent and identically distributed random variables where $Y_n = 1$ with probability $p$ and $Y_n = -1$ with probability $1-p$. Then, \(X_{n+1} = X_n + \gamma Y_n X_n = X_n(1+\gamma Y_n).\) Let $T_a$ be the first round we have more than $a$ stars, or formally, $T_a = \inf\{n : X_n \geq a\}.$ We prove the following result, which happens to be a variation of the Kelly Criterion, Theorem. In the above setting, $\E T_a$ is minimized if $\gamma = 2p-1.$ Proof. Let $S_n = \log X_n = \sum_{i=1}^n \log(1+\gamma Y_i)$. Define $\beta = (p\log(1+\gamma) + (1-p)\log(1-\gamma))$, so that $Z_n = S_n - \beta n$. $Z_n$ is a martingale with respect to $F_n = \sigma(X_0, Y_1, \ldots, Y_n)$ since, \(\begin{align*} \E[Z_n | F_{n-1}] &amp;amp;= S_{n-1} + \E[\log(1+\gamma Y_i)] - \beta(n-1) - \beta,\\ &amp;amp;= S_{n-1} + p\log(1+\gamma)+(1-p)\log(1-\gamma) - \beta(n-1) - \beta,\\ &amp;amp;= S_{n-1} - \beta(n-1). \end{align*}\) Applying the Optional Stopping Theorem, since $|(S_n - \beta n) - (S_{n-1} - \beta (n - 1))| \leq |\log(1+\gamma) - \beta|$ which is a constant, \(\begin{align*} Z_0 &amp;amp;= \E[Z_{T_a}],\\ \log(X_0) &amp;amp;= \E[ S_{T_a} - \beta T_a],\\ &amp;amp;= \log(a) - \beta \E T_a,\\ \E T_a &amp;amp;= \frac{\log(a) - \log(X_0)}{\beta}. \end{align*}\) It remains to show that $\beta$ is maximized by $\gamma = 1/2$, but this follows since \(\frac{d}{d\gamma} \beta = \frac{1+\gamma-2p}{\gamma^2-1},\) Setting $\frac{d}{d\gamma} \beta = 0$ yields \(\gamma = 2p-1.\) $\square$</summary>
       
 
       

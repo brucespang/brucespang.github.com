@@ -30,4 +30,12 @@ exclude:
   - Gemfile.lock
 excerpt_separator: <!--more-->
 
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+
 google_analytics: UA-98289400-1
