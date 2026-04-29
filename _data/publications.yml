@@ -28,6 +28,11 @@
     defense video: https://www.youtube.com/watch?v=ZmBbwjfz0e4
   authors:
     - Bruce Spang
+  advisors:
+    - name: Nick McKeown
+      url: http://stanford.edu/~nickm/
+    - name: Ramesh Johari
+      url: https://web.stanford.edu/~rjohari/
   venue: PhD Thesis
   date: June 2023
 
