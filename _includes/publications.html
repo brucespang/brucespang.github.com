@@ -3,10 +3,7 @@
   <li class="publications">
     <header class="post-header">
       <h3>{{ pub.title }}</h3>
-      <p class="authors">{{ pub.authors | join: ", " }}</p>
-      {% if pub.advisors %}
-      <p class="advisors">, advised by{% for advisor in pub.advisors %}{% if forloop.first %} {% else %}{% if pub.advisors.size > 2 and forloop.last == false %},{% endif %} {% if forloop.last %}and {% endif %}{% endif %}<a href="{{ advisor.url }}">{{ advisor.name }}</a>{% endfor %}</p>
-      {% endif %}
+      <p class="authors">{{ pub.authors | join: ", " }}{% if pub.advisors %}, advised by{% for advisor in pub.advisors %}{% if forloop.first %} {% else %}{% if pub.advisors.size > 2 and forloop.last == false %},{% endif %} {% if forloop.last %}and {% endif %}{% endif %}<a href="{{ advisor.url }}">{{ advisor.name }}</a>{% endfor %}{% endif %}</p>
       {% if pub.venue %}
       <span class="venue">{{ pub.venue }},</span>
       {% endif %}
