@@ -17,7 +17,7 @@ title: Bruce Spang
 email: hello@brucespang.com
 author: Bruce Spang
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brucespang.com" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: [Makefile]
 
 # Build settings

@@ -1,0 +1,24 @@
+- name: showup.lol
+  url: https://showup.lol
+  description: An RSVP app my friend group has been using. We've been having fun drawing!
+  date: February 2026
+
+- name: routes.brucespang.com
+  url: https://routes.brucespang.com/
+  description: A personal mapping tool I've been using for finding nice places to run. It's very Bay Area-centric, if you're interested in something like this for yourself please [get in touch with me](mailto:hello@brucespang.com)!
+  date: January 2026
+
+- name: pawprint
+  url: https://github.com/brucespang/pawprint
+  description: CLI for printing images and Markdown to the MXW01 thermal cat printer.
+  date: April 2026
+
+- name: Strava Calendar View
+  url: https://chromewebstore.google.com/detail/strava-calendar-view/odlblcdbeelgpnlliakhajfkcmbjopjf
+  description: Chrome extension that adds a calendar view to Strava athlete profile pages.
+  date: February 2026
+
+- name: plorts
+  url: https://github.com/brucespang/plorts
+  description: Thin matplotlib wrapper to make it easier to make the kinds of plots I make over and over.
+  date: August 2016

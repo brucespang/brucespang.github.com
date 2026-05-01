@@ -1,0 +1,12 @@
+<ul class="post-list">
+  {% for project in include.projects %}
+  <li>
+    <header class="post-header">
+      <h3>
+        <a class="post-link" href="{{ project.url }}">{{ project.name }}</a>
+      </h3>
+      {{ project.description | markdownify }}
+    </header>
+  </li>
+  {% endfor %}
+</ul>

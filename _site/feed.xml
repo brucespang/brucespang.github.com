@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2026-04-29T14:45:43-07:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="https://brucespang.com/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://brucespang.com/" rel="alternate" type="text/html" />
+  <updated>2026-05-01T12:45:20-07:00</updated>
+  <id>https://brucespang.com/</id>
 
   
     <title type="html">Bruce Spang</title>
@@ -21,18 +21,486 @@
       
     </author>
   
+  
+  
+  
+  
+  
 
   
+    
+    
+
+    
+      
+      
+    <entry>
+      <title type="html">pawprint</title>
+      <link href="https://github.com/brucespang/pawprint" rel="alternate" type="text/html" title="pawprint" />
+      <id>https://github.com/brucespang/pawprint</id>
+      <published>2026-04-01T00:00:00-07:00</published>
+      <updated>2026-04-01T00:00:00-07:00</updated>
+      <category term="project" />
+      <content type="html">&lt;p&gt;CLI for printing images and Markdown to the MXW01 thermal cat printer.&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+    
   
+    
+    
+
+    
+      
+      
+    <entry>
+      <title type="html">Strava Calendar View</title>
+      <link href="https://chromewebstore.google.com/detail/strava-calendar-view/odlblcdbeelgpnlliakhajfkcmbjopjf" rel="alternate" type="text/html" title="Strava Calendar View" />
+      <id>https://chromewebstore.google.com/detail/strava-calendar-view/odlblcdbeelgpnlliakhajfkcmbjopjf</id>
+      <published>2026-02-01T00:00:00-08:00</published>
+      <updated>2026-02-01T00:00:00-08:00</updated>
+      <category term="project" />
+      <content type="html">&lt;p&gt;Chrome extension that adds a calendar view to Strava athlete profile pages.&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+    
+  
+    
+    
+
+    
+      
+      
+    <entry>
+      <title type="html">showup.lol</title>
+      <link href="https://showup.lol" rel="alternate" type="text/html" title="showup.lol" />
+      <id>https://showup.lol</id>
+      <published>2026-02-01T00:00:00-08:00</published>
+      <updated>2026-02-01T00:00:00-08:00</updated>
+      <category term="project" />
+      <content type="html">&lt;p&gt;An RSVP app my friend group has been using. We’ve been having fun drawing!&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+    
+  
+    
+    
+
+    
+      
+      
+    <entry>
+      <title type="html">routes.brucespang.com</title>
+      <link href="https://routes.brucespang.com/" rel="alternate" type="text/html" title="routes.brucespang.com" />
+      <id>https://routes.brucespang.com/</id>
+      <published>2026-01-01T00:00:00-08:00</published>
+      <updated>2026-01-01T00:00:00-08:00</updated>
+      <category term="project" />
+      <content type="html">&lt;p&gt;A personal mapping tool I’ve been using for finding nice places to run. It’s very Bay Area-centric, if you’re interested in something like this for yourself please &lt;a href=&quot;mailto:hello@brucespang.com&quot;&gt;get in touch with me&lt;/a&gt;!&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Innovating Live Streaming with a Client Simulator</title>
+      
+      <link href="https://docs.google.com/presentation/d/1dCqNvwm8kkFiDdtIt2AyN-_9xAXEXWCAweQp26Q0Vvg/edit?usp=sharing" rel="alternate" type="text/html" title="Innovating Live Streaming with a Client Simulator" />
+      <id>https://docs.google.com/presentation/d/1dCqNvwm8kkFiDdtIt2AyN-_9xAXEXWCAweQp26Q0Vvg/edit?usp=sharing</id>
+      
+      <published>2024-10-01T00:00:00-07:00</published>
+      <updated>2024-10-01T00:00:00-07:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at Demuxed 2024&lt;/strong&gt;, October 2024&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1dCqNvwm8kkFiDdtIt2AyN-_9xAXEXWCAweQp26Q0Vvg/edit?usp=sharing&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Green With Envy: Unfair Congestion Control Algorithms Can Be More Energy Efficient</title>
+      
+      <link href="https://brucespang.com/papers/green-with-envy.pdf" rel="alternate" type="text/html" title="Green With Envy: Unfair Congestion Control Algorithms Can Be More Energy Efficient" />
+      <id>https://brucespang.com/papers/green-with-envy.pdf</id>
+      
+      <published>2023-11-01T00:00:00-07:00</published>
+      <updated>2023-11-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;HotNets&lt;/strong&gt;, November 2023&lt;/p&gt;&lt;p&gt;Serhat Arslan, Sundararajan Renganathan, Bruce Spang&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/papers/green-with-envy.pdf&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/serhatarslan-hub/power-of-cc&quot;&gt;github&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Sammy: smoothing video traffic to be a friendly internet neighbor</title>
+      
+      <link href="https://brucespang.com/papers/sammy.pdf" rel="alternate" type="text/html" title="Sammy: smoothing video traffic to be a friendly internet neighbor" />
+      <id>https://brucespang.com/papers/sammy.pdf</id>
+      
+      <published>2023-09-01T00:00:00-07:00</published>
+      <updated>2023-09-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;SIGCOMM&lt;/strong&gt;, September 2023&lt;/p&gt;&lt;p&gt;Bruce Spang, Shravya Kunamalla, Renata Teixeira, Te-Yuan Huang, Grenville Armitage, Ramesh Johari, Nick McKeown&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/papers/sammy.pdf&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1HSAz-M4uDxqGJaXX7T76lmC-M_zVcNV5PJoBgHolLZY/edit?usp=sharing&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/brucespang/sammy&quot;&gt;github&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://sammy.brucespang.com&quot;&gt;demo site&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/ZmBbwjfz0e4?si=0SJ55k9EeY740vsA&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Making Video Traffic a Friendlier Internet Neighbor</title>
+      
+      <link href="https://brucespang.com/papers/phd-thesis.pdf" rel="alternate" type="text/html" title="Making Video Traffic a Friendlier Internet Neighbor" />
+      <id>https://brucespang.com/papers/phd-thesis.pdf</id>
+      
+      <published>2023-06-01T00:00:00-07:00</published>
+      <updated>2023-06-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;PhD Thesis&lt;/strong&gt;, June 2023&lt;/p&gt;&lt;p&gt;Bruce Spang&lt;/p&gt;&lt;p&gt;&lt;em&gt;2024 SIGCOMM Doctoral Dissertation Award Runner-up&lt;/em&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/papers/phd-thesis.pdf&quot;&gt;thesis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1vQWYDiIEMrT6y_Sw1qrOmx2Rew63s9YdlF_uwv718RY/edit?usp=sharing&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ZmBbwjfz0e4&quot;&gt;defense video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Strong Anonymity for Mesh Messaging</title>
+      
+      <link href="https://arxiv.org/abs/2207.04145" rel="alternate" type="text/html" title="Strong Anonymity for Mesh Messaging" />
+      <id>https://arxiv.org/abs/2207.04145</id>
+      
+      <published>2022-07-01T00:00:00-07:00</published>
+      <updated>2022-07-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Preprint&lt;/strong&gt;, July 2022&lt;/p&gt;&lt;p&gt;Neil Perry, Bruce Spang, Saba Eskandarian, Dan Boneh&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2207.04145&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Unbiased Experiments in Congested Networks</title>
+      
+      <link href="https://brucespang.com/" rel="alternate" type="text/html" title="Unbiased Experiments in Congested Networks" />
+      
+      <id>https://brucespang.com/feed/talk/unbiased-experiments-in-congested-networks-ietf-113-irtf-award-talk</id>
+      
+      <published>2022-03-01T00:00:00-08:00</published>
+      <updated>2022-03-01T00:00:00-08:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at IETF 113, IRTF award talk&lt;/strong&gt;, March 2022&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Unbiased Experiments in Congested Networks</title>
+      
+      <link href="https://brucespang.com/" rel="alternate" type="text/html" title="Unbiased Experiments in Congested Networks" />
+      
+      <id>https://brucespang.com/feed/talk/unbiased-experiments-in-congested-networks-stanford-causality-conference</id>
+      
+      <published>2021-11-01T00:00:00-07:00</published>
+      <updated>2021-11-01T00:00:00-07:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at Stanford Causality Conference&lt;/strong&gt;, November 2021&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Updating the Theory of Buffer Sizing</title>
+      
+      <link href="https://arxiv.org/abs/2109.11693" rel="alternate" type="text/html" title="Updating the Theory of Buffer Sizing" />
+      <id>https://arxiv.org/abs/2109.11693</id>
+      
+      <published>2021-11-01T00:00:00-07:00</published>
+      <updated>2021-11-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;IFIP Performance&lt;/strong&gt;, November 2021&lt;/p&gt;&lt;p&gt;Bruce Spang, Serhat Arslan, Nick McKeown&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2109.11693&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/pBgeSBFvz5c&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/brucespang/ifip21-buffer-sizing&quot;&gt;github&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Unbiased Experiments in Congested Networks</title>
+      
+      <link href="https://arxiv.org/abs/2110.00118" rel="alternate" type="text/html" title="Unbiased Experiments in Congested Networks" />
+      <id>https://arxiv.org/abs/2110.00118</id>
+      
+      <published>2021-11-01T00:00:00-07:00</published>
+      <updated>2021-11-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;IMC&lt;/strong&gt;, November 2021&lt;/p&gt;&lt;p&gt;Bruce Spang, Veronica Hannan, Shravya Kunamalla, Te-Yuan Huang, Nick McKeown, Ramesh Johari&lt;/p&gt;&lt;p&gt;&lt;em&gt;IRTF Applied Networking Research Prize&lt;/em&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2110.00118&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/eGjU_C8p3NE&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1IaKRXPbRdz1FlT7R_AmZ-VhcCLBI_kPue42C3iQbKak/edit?slide=id.gf8bc968417_0_0#slide=id.gf8bc968417_0_0&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.apnic.net/2022/05/11/reducing-bias-of-networking-a-b-tests/&quot;&gt;APNIC blog post&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Coded Trace reconstruction in a constant number of traces</title>
+      
+      <link href="http://arxiv.org/abs/1908.03996" rel="alternate" type="text/html" title="Coded Trace reconstruction in a constant number of traces" />
+      <id>http://arxiv.org/abs/1908.03996</id>
+      
+      <published>2020-11-01T00:00:00-07:00</published>
+      <updated>2020-11-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;FOCS&lt;/strong&gt;, November 2020&lt;/p&gt;&lt;p&gt;Joshua Brakensiek, Ray Li, Bruce Spang&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1908.03996&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KNXYha29Sco&amp;list=PL3DbynX8gwfJ6rSvo_2LZ6qKahHtrVBfJ&amp;index=6&amp;ab_channel=IEEEFOCS%3AFoundationsofComputerScience&quot;&gt;talk by Ray&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Buffer Sizing and Video QoE Measurements at Netflix</title>
+      
+      <link href="https://brucespang.com/slides/netflix-buffer-sizing.pdf" rel="alternate" type="text/html" title="Buffer Sizing and Video QoE Measurements at Netflix" />
+      <id>https://brucespang.com/slides/netflix-buffer-sizing.pdf</id>
+      
+      <published>2020-02-01T00:00:00-08:00</published>
+      <updated>2020-02-01T00:00:00-08:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at NANOG 78 - San Francisco&lt;/strong&gt;, February 2020&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/netflix-buffer-sizing.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/otENYY1jIbY&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">On Estimating the Number of Flows</title>
+      
+      <link href="https://brucespang.com/papers/estimating-n.pdf" rel="alternate" type="text/html" title="On Estimating the Number of Flows" />
+      <id>https://brucespang.com/papers/estimating-n.pdf</id>
+      
+      <published>2019-12-01T00:00:00-08:00</published>
+      <updated>2019-12-01T00:00:00-08:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Buffer Sizing Workshop&lt;/strong&gt;, December 2019&lt;/p&gt;&lt;p&gt;Bruce Spang, Nick McKeown&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/papers/estimating-n.pdf&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/estimating-n.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Buffer Sizing and Video QoE Measurements at Netflix</title>
+      
+      <link href="https://brucespang.com/papers/netflix-buffer-sizing.pdf" rel="alternate" type="text/html" title="Buffer Sizing and Video QoE Measurements at Netflix" />
+      <id>https://brucespang.com/papers/netflix-buffer-sizing.pdf</id>
+      
+      <published>2019-12-01T00:00:00-08:00</published>
+      <updated>2019-12-01T00:00:00-08:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Buffer Sizing Workshop&lt;/strong&gt;, December 2019&lt;/p&gt;&lt;p&gt;Bruce Spang, Brady Walsh, Te-Yuan Huang, Tom Rusnock, Joe Lawrence, Nick McKeown&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/papers/netflix-buffer-sizing.pdf&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/netflix-buffer-sizing.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
     <entry>
       
       <title type="html">Three new papers for Autumn/Winter 2019</title>
       
-      <link href="http://localhost:4000/2019/11/21/AW2019.html" rel="alternate" type="text/html" title="Three new papers for Autumn/Winter 2019" />
+      <link href="https://brucespang.com/2019/11/21/AW2019.html" rel="alternate" type="text/html" title="Three new papers for Autumn/Winter 2019" />
       <published>2019-11-21T09:00:00-08:00</published>
       <updated>2019-11-21T09:00:00-08:00</updated>
-      <id>http://localhost:4000/2019/11/21/AW2019</id>
-      <content type="html" xml:base="http://localhost:4000/2019/11/21/AW2019.html">&lt;p&gt;It’s been a productive summer/fall, and as a result we have three new papers published/in submission.&lt;/p&gt;
+      <id>https://brucespang.com/2019/11/21/AW2019</id>
+      <category term="post" />
+      <content type="html" xml:base="https://brucespang.com/2019/11/21/AW2019.html">&lt;p&gt;It’s been a productive summer/fall, and as a result we have three new papers published/in submission.&lt;/p&gt;
 
 &lt;h2 id=&quot;buffer-sizing-and-video-qoe-measurements-at-netflix&quot;&gt;&lt;a href=&quot;/papers/netflix-buffer-sizing.pdf&quot;&gt;Buffer Sizing and Video QoE Measurements at Netflix&lt;/a&gt;&lt;/h2&gt;
 
@@ -87,18 +555,80 @@
       
       
     </entry>
+
+    
   
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">On the Detection of Defective Members of Large Populations</title>
+      
+      <link href="https://brucespang.com/slides/papers-we-love-11-21-19.key" rel="alternate" type="text/html" title="On the Detection of Defective Members of Large Populations" />
+      <id>https://brucespang.com/slides/papers-we-love-11-21-19.key</id>
+      
+      <published>2019-11-01T00:00:00-07:00</published>
+      <updated>2019-11-01T00:00:00-07:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at Papers we Love SF&lt;/strong&gt;, November 2019&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/papers-we-love-11-21-19.key&quot;&gt;slides (keynote)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/papers-we-love-11-21-19.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/20rQe82F4Vo&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
   
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Unconstraining Graph-Constrained Group Testing</title>
+      
+      <link href="https://arxiv.org/abs/1809.03589" rel="alternate" type="text/html" title="Unconstraining Graph-Constrained Group Testing" />
+      <id>https://arxiv.org/abs/1809.03589</id>
+      
+      <published>2019-09-01T00:00:00-07:00</published>
+      <updated>2019-09-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;APPROX/RANDOM&lt;/strong&gt;, September 2019&lt;/p&gt;&lt;p&gt;Bruce Spang, Mary Wootters&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/graph-group-testing.key&quot;&gt;slides (keynote)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/graph-group-testing.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
   
+    
+    
+
+    
+      
     <entry>
       
       <title type="html">New paper: Unconstraining graph-constrained group testing</title>
       
-      <link href="http://localhost:4000/2018/09/11/group-testing.html" rel="alternate" type="text/html" title="New paper: Unconstraining graph-constrained group testing" />
+      <link href="https://brucespang.com/2018/09/11/group-testing.html" rel="alternate" type="text/html" title="New paper: Unconstraining graph-constrained group testing" />
       <published>2018-09-11T17:00:00-07:00</published>
       <updated>2018-09-11T17:00:00-07:00</updated>
-      <id>http://localhost:4000/2018/09/11/group-testing</id>
-      <content type="html" xml:base="http://localhost:4000/2018/09/11/group-testing.html">&lt;p&gt;We just submitted &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;a new paper&lt;/a&gt; on Graph-Constrained Group Testing which I’m really excited about!&lt;/p&gt;
+      <id>https://brucespang.com/2018/09/11/group-testing</id>
+      <category term="post" />
+      <content type="html" xml:base="https://brucespang.com/2018/09/11/group-testing.html">&lt;p&gt;We just submitted &lt;a href=&quot;https://arxiv.org/abs/1809.03589&quot;&gt;a new paper&lt;/a&gt; on Graph-Constrained Group Testing which I’m really excited about!&lt;/p&gt;
 
 &lt;p&gt;The problem we consider is related to debugging networks: suppose you have a network where some of the links in your network fail. You can send a packet around the network, and observe whether it reaches its destination or not. How many packets do you need to send to find the failing links?&lt;/p&gt;
 
@@ -122,7 +652,7 @@
   &lt;img src=&quot;/assets/giant-components/complete-subgraph.png&quot; alt=&quot;&quot; /&gt;
   
   &lt;/p&gt;
-  &lt;caption align=&quot;bottom&quot;&gt;A complete graph on 16 nodes on the left, and sparsified with probability $\frac{1 + 0.2}{16}$ on the right.&lt;/caption&gt;
+  &lt;figcaption&gt;A complete graph on 16 nodes on the left, and sparsified with probability $\frac{1 + 0.2}{16}$ on the right.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure style=&quot;text-align: center&quot;&gt;
@@ -133,7 +663,7 @@
   &lt;img src=&quot;/assets/giant-components/rreg-subgraph.png&quot; alt=&quot;&quot; /&gt;
   
   &lt;/p&gt;
-  &lt;caption align=&quot;bottom&quot;&gt;A random regular graph (left) and sparsified (right).&lt;/caption&gt;
+  &lt;figcaption&gt;A random regular graph (left) and sparsified (right).&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure style=&quot;text-align: center&quot;&gt;
@@ -144,7 +674,7 @@
   &lt;img src=&quot;/assets/giant-components/barbell-subgraph.png&quot; alt=&quot;&quot; /&gt;
   
   &lt;/p&gt;
-  &lt;caption align=&quot;bottom&quot;&gt;A barbell graph (left) has two giant components (right) when sparsified.&lt;/caption&gt;
+  &lt;figcaption&gt;A barbell graph (left) has two giant components (right) when sparsified.&lt;/figcaption&gt;
 &lt;/figure&gt;</content>
 
       
@@ -172,18 +702,24 @@
       
       
     </entry>
+
+    
   
-  
-  
+    
+    
+
+    
+      
     <entry>
       
       <title type="html">Optimal Gambling at Stardew Valley’s Roulette Wheel</title>
       
-      <link href="http://localhost:4000/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley&apos;s Roulette Wheel" />
+      <link href="https://brucespang.com/2018/05/31/stardew-valley-roulette.html" rel="alternate" type="text/html" title="Optimal Gambling at Stardew Valley&apos;s Roulette Wheel" />
       <published>2018-05-31T10:00:00-07:00</published>
       <updated>2018-05-31T10:00:00-07:00</updated>
-      <id>http://localhost:4000/2018/05/31/stardew-valley-roulette</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;&lt;img src=&quot;/assets/stardew-wheel.png&quot; alt=&quot;The stardew valley wheel&quot; /&gt;&lt;/p&gt;
+      <id>https://brucespang.com/2018/05/31/stardew-valley-roulette</id>
+      <category term="post" />
+      <content type="html" xml:base="https://brucespang.com/2018/05/31/stardew-valley-roulette.html">&lt;p&gt;&lt;img src=&quot;/assets/stardew-wheel.png&quot; alt=&quot;The stardew valley wheel&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve been playing a bit of Stardew Valley recently. At some point you go to the Stardew Valley Fair, where there’s a roulette wheel you can play which comes up green with probability $3/4$ and orange with probability $1/4$. Winning gives you star tokens, and there’s big incentive to get lots of stars: you can win a rare scarecrow! Betting on a roulette wheel biased in our favor seems like a great way to get them.&lt;/p&gt;
 
@@ -240,18 +776,52 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields \(\gamma = 2p-1.\) $\square$&lt;/p&
       
       
     </entry>
+
+    
   
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">MON: Mission-optimized overlay networks</title>
+      
+      <link href="https://arxiv.org/abs/1701.08098" rel="alternate" type="text/html" title="MON: Mission-optimized overlay networks" />
+      <id>https://arxiv.org/abs/1701.08098</id>
+      
+      <published>2017-05-01T00:00:00-07:00</published>
+      <updated>2017-05-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;IEEE INFOCOM&lt;/strong&gt;, May 2017&lt;/p&gt;&lt;p&gt;Bruce Spang, Anirudh Sabnis, Ramesh Sitaraman, Donald Towsley, Brian DeCleene&lt;/p&gt;&lt;p&gt;&lt;em&gt;Best in Session Presentation Award&lt;/em&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1701.08098&quot;&gt;paper&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brucespang.com/slides/mon.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
   
-  
+    
+    
+
+    
+      
     <entry>
       
       <title type="html">Some Updates</title>
       
-      <link href="http://localhost:4000/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
+      <link href="https://brucespang.com/2017/04/28/some-updates.html" rel="alternate" type="text/html" title="Some Updates" />
       <published>2017-04-28T07:00:00-07:00</published>
       <updated>2017-04-28T07:00:00-07:00</updated>
-      <id>http://localhost:4000/2017/04/28/some-updates</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
+      <id>https://brucespang.com/2017/04/28/some-updates</id>
+      <category term="post" />
+      <content type="html" xml:base="https://brucespang.com/2017/04/28/some-updates.html">&lt;p&gt;Hey pals,&lt;/p&gt;
 
 &lt;p&gt;I’ve been silent on social media for a few months now, so I figured I’d write something up about what I’ve been up to.&lt;/p&gt;
 
@@ -286,6 +856,170 @@ Setting $\frac{d}{d\gamma} \beta = 0$ yields \(\gamma = 2p-1.\) $\square$&lt;/p&
       
       
     </entry>
+
+    
   
+    
+    
+
+    
+      
+      
+    <entry>
+      <title type="html">plorts</title>
+      <link href="https://github.com/brucespang/plorts" rel="alternate" type="text/html" title="plorts" />
+      <id>https://github.com/brucespang/plorts</id>
+      <published>2016-08-01T00:00:00-07:00</published>
+      <updated>2016-08-01T00:00:00-07:00</updated>
+      <category term="project" />
+      <content type="html">&lt;p&gt;Thin matplotlib wrapper to make it easier to make the kinds of plots I make over and over.&lt;/p&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Developing a Globally Distributed Purging System</title>
+      
+      <link href="https://speakerdeck.com/brucespang/papers-prototypes-and-production-developing-a-globally-distributed-purging-system" rel="alternate" type="text/html" title="Developing a Globally Distributed Purging System" />
+      <id>https://speakerdeck.com/brucespang/papers-prototypes-and-production-developing-a-globally-distributed-purging-system</id>
+      
+      <published>2014-11-01T00:00:00-07:00</published>
+      <updated>2014-11-01T00:00:00-07:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at Velocity Barcelona&lt;/strong&gt;, November 2014&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/brucespang/papers-prototypes-and-production-developing-a-globally-distributed-purging-system&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://youtu.be/HfO_6bKsy_g&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Bimodal Multicast</title>
+      
+      <link href="http://brucespang.com/bimodal/" rel="alternate" type="text/html" title="Bimodal Multicast" />
+      <id>http://brucespang.com/bimodal/</id>
+      
+      <published>2014-05-01T00:00:00-07:00</published>
+      <updated>2014-05-01T00:00:00-07:00</updated>
+      <category term="talk" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Talk at Papers we Love SF&lt;/strong&gt;, May 2014&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://brucespang.com/bimodal/&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iBvWB2K2ULU&quot;&gt;video&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Building a Fast and Reliable Purging System</title>
+      
+      <link href="https://www.fastly.com/blog/building-fast-and-reliable-purging-system" rel="alternate" type="text/html" title="Building a Fast and Reliable Purging System" />
+      <id>https://www.fastly.com/blog/building-fast-and-reliable-purging-system</id>
+      
+      <published>2014-02-01T00:00:00-08:00</published>
+      <updated>2014-02-01T00:00:00-08:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Fastly Blog&lt;/strong&gt;, February 2014&lt;/p&gt;&lt;p&gt;Bruce Spang&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.fastly.com/blog/building-fast-and-reliable-purging-system&quot;&gt;blog post&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Data Purge Distribution and Coherency</title>
+      
+      <link href="https://www.google.com/patents/US20150237131" rel="alternate" type="text/html" title="Data Purge Distribution and Coherency" />
+      <id>https://www.google.com/patents/US20150237131</id>
+      
+      <published>2014-02-01T00:00:00-08:00</published>
+      <updated>2014-02-01T00:00:00-08:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Patent&lt;/strong&gt;, February 2014&lt;/p&gt;&lt;p&gt;Bruce Spang, Tyler McMullen&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.google.com/patents/US20150237131&quot;&gt;patent&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
+  
+    
+    
+
+    
+      
+      
+      
+      
+    <entry>
+      <title type="html">Color Coding</title>
+      
+      <link href="https://dribbble.com/stories/2011/05/26/color-coding" rel="alternate" type="text/html" title="Color Coding" />
+      <id>https://dribbble.com/stories/2011/05/26/color-coding</id>
+      
+      <published>2011-05-01T00:00:00-07:00</published>
+      <updated>2011-05-01T00:00:00-07:00</updated>
+      <category term="publication" />
+      <content type="html">&lt;p&gt;&lt;strong&gt;Dribbble Blog&lt;/strong&gt;, May 2011&lt;/p&gt;&lt;p&gt;Bruce Spang&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://dribbble.com/stories/2011/05/26/color-coding&quot;&gt;blog post&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+      
+      <author>
+          <name>Bruce Spang</name>
+        
+      </author>
+      
+    </entry>
+
+    
   
 </feed>
