@@ -1,3 +1,20 @@
+- title: "Measuring Service Congestion, Sharing, and Pacing in a Residential Access Network"
+  type: paper
+  links:
+    paper: /papers/columbia-congestion.pdf
+  authors:
+    - Shuyue Yu
+    - Bruce Spang
+    - Carson Garland
+    - Kevin Chen
+    - Ramki Gummadi
+    - Gil Zussman
+    - Ethan Katz-Bassett
+    - Te-Yuan Huang
+    - Renata Teixeira
+  venue: IMC
+  date: October 2026
+
 - title: "Sammy: smoothing video traffic to be a friendly internet neighbor"
   type: paper
   links:
@@ -46,7 +63,7 @@
     - Sundararajan Renganathan
     - Bruce Spang
   venue: HotNets
-  date: November 2023  
+  date: November 2023
 
 - title: Unbiased Experiments in Congested Networks
   type: paper
@@ -104,7 +121,7 @@
     - Bruce Spang
   venue: FOCS
   date: November 2020
-  
+
 - title: Buffer Sizing and Video QoE Measurements at Netflix
   type: workshop
   links:
@@ -130,7 +147,7 @@
     - Nick McKeown
   venue: Buffer Sizing Workshop
   date: December 2019
-  
+
 - title: Unconstraining Graph-Constrained Group Testing
   type: paper
   links:
@@ -158,7 +175,7 @@
   date: May 2017
   prize:
     name: Best in Session Presentation Award
-    
+
 - title: Data Purge Distribution and Coherency
   type: patent
   links:
@@ -177,7 +194,7 @@
     - Bruce Spang
   venue: Fastly Blog
   date: February 2014
-  
+
 - title: Color Coding
   type: blog
   links:
