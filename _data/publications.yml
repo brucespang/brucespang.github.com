@@ -1,5 +1,8 @@
 - title: "Measuring Service Congestion, Sharing, and Pacing in a Residential Access Network"
   type: paper
+  prize:
+    name: Best Paper
+    url: https://conferences.sigcomm.org/imc/2026/awards/
   links:
     paper: /papers/columbia-congestion.pdf
   authors:
