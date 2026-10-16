@@ -5,6 +5,7 @@
     url: https://conferences.sigcomm.org/imc/2026/awards/
   links:
     paper: /papers/columbia-congestion.pdf
+    slides: https://docs.google.com/presentation/d/1L4IrkgWL0bHotj_k5qflYibouWk4ZGQ5F539rM9xfPY/edit?usp=sharing
   authors:
     - Shuyue Yu
     - Bruce Spang
